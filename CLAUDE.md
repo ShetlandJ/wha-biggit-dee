@@ -17,7 +17,8 @@ App supports multiple people via `?id=` query param. Default is I210520.
 | Person | ID | URL | Ancestors | Geography |
 |---|---|---|---|---|
 | Marilyn Susan HALCROW | `I210520` | `?id=I210520` | 138, 8 gens | Burra, Northmavine, Tingwall |
-| Living (Burgess tree) | `I227628` | `?id=I227628` | 248, 8 gens | Dunrossness, Yell, Whalsay, Fetlar |
+| Mackie John BURGESS | `I227628` | `?id=I227628` | 255, 8 gens | Dunrossness, Yell, Whalsay, Fetlar |
+| Michael STEWART | `I228247` | `?id=I228247` | 202, 8 gens | Whalsay |
 
 ## To add a new person
 

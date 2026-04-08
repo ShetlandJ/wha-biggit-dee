@@ -542,6 +542,11 @@
       "lat": 60.5974,
       "lng": -1.0622,
       "type": "parish"
+    },
+    "Hoga Baa Ship": {
+      "lat": 60.35,
+      "lng": -0.95,
+      "type": "sea"
     }
   }
 }
