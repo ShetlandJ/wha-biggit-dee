@@ -365,7 +365,16 @@ function showPlaceInfo(key, data) {
       return ya - yb;
     });
 
-    for (const ev of events) {
+    // Deduplicate same pID at same place
+    const seen = new Set();
+    const deduped = events.filter(ev => {
+      const key = `${ev.person.pID || ev.person.ahnentafel}-${ev.date}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+
+    for (const ev of deduped) {
       html += `<div class="info-event">
         <div class="event-type ${type}"></div>
         <div class="event-detail">
