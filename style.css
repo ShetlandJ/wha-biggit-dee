@@ -346,3 +346,61 @@ body {
 #info-panel::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  #sidebar {
+    width: 100%;
+    min-width: 100%;
+    max-height: 45vh;
+    border-right: none;
+    border-bottom: 1px solid #333;
+    order: 2;
+  }
+
+  #sidebar h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  #root-person {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  #generation-filter,
+  #event-filter {
+    padding: 8px 16px;
+  }
+
+  #event-filter label {
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 12px;
+  }
+
+  #map {
+    order: 1;
+    min-height: 55vh;
+  }
+
+  #info-panel {
+    bottom: 46vh;
+    right: 8px;
+    left: 8px;
+    width: auto;
+    max-height: 45vh;
+  }
+
+  .person-item {
+    padding: 8px;
+    font-size: 13px;
+  }
+}
