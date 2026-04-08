@@ -416,6 +416,11 @@ function showPersonInfo(person) {
     html += '</div>';
   }
 
+  // Bayanne link
+  if (person.pID) {
+    html += `<div style="margin-top:12px"><a href="https://www.bayanne.info/Shetland/getperson.php?personID=${person.pID}&tree=ID1" target="_blank" rel="noopener" style="color:#7ab;font-size:12px;text-decoration:none">View on Bayanne &rarr;</a></div>`;
+  }
+
   content.innerHTML = html;
   panel.classList.remove('hidden');
 
