@@ -511,6 +511,37 @@
       "lat": 60.6081,
       "lng": -1.1617,
       "type": "parish"
+    },
+    "At Haaf": {
+      "lat": 60.3,
+      "lng": -2.5,
+      "type": "sea"
+    },
+    "At haaf": {
+      "lat": 60.3,
+      "lng": -2.5,
+      "type": "sea"
+    },
+    "Lowick": {
+      "lat": 55.6267,
+      "lng": -1.9622,
+      "type": "settlement"
+    },
+    "NBL": {
+      "lat": 55.3,
+      "lng": -1.9,
+      "type": "county",
+      "name": "Northumberland"
+    },
+    "Mid & South Yell": {
+      "lat": 60.5974,
+      "lng": -1.0622,
+      "type": "parish"
+    },
+    "Mid &amp; South Yell": {
+      "lat": 60.5974,
+      "lng": -1.0622,
+      "type": "parish"
     }
   }
 }
