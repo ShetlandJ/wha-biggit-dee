@@ -10,20 +10,33 @@ Ancestor journey map visualization. Takes genealogy data from TNG (The Next Gene
 - TNG place format: `specific_place, parish, county_code, country_code` (e.g. `Hamnavoe, Burra, SHI, SCT`)
 - Codes: `SHI` = Shetland Islands, `SCT` = Scotland
 
-## Current root person
+## People
 
-- **Marilyn Susan HALCROW** — personID: `I210520`, born 1962, Lerwick
-- 138 ancestors across 8 generations (~1690s–1962)
+App supports multiple people via `?id=` query param. Default is I210520.
 
-## To replicate with a different person
+| Person | ID | URL | Ancestors | Geography |
+|---|---|---|---|---|
+| Marilyn Susan HALCROW | `I210520` | `?id=I210520` | 138, 8 gens | Burra, Northmavine, Tingwall |
+| Living (Burgess tree) | `I227628` | `?id=I227628` | 248, 8 gens | Dunrossness, Yell, Whalsay, Fetlar |
 
-1. Navigate to `https://www.bayanne.info/Shetland/pedigreetext.php?personID={NEW_ID}&tree=ID1&parentset=0&generations=8`
-2. Parse the text pedigree — entries follow ahnentafel numbering:
-   - Format: `N. Firstname LASTNAME` followed by `B: date`, `P: place`, `M: date`, `P: place`, `D: date`, `P: place`
-   - Person N has father 2N, mother 2N+1
-3. Save parsed data to `data/ancestors.json` (same schema as current file)
-4. Run the place resolver against `data/places.json` — check for unresolved places and add coordinates
-5. The app reads `data/ancestors.json` and `data/places.json` at runtime, everything else is generic
+## To add a new person
+
+1. Fetch: `curl -s 'https://www.bayanne.info/Shetland/pedigreetext.php?personID={ID}&tree=ID1&parentset=0&generations=8' > /tmp/pedigree_{ID}.html`
+2. Parse the HTML — person IDs are in `<a href="getperson.php?personID=XXX">` links. Events (B:/M:/D:/P:) are in table cells inside `<span class="normal">` tags, NOT plain text.
+3. Save to `data/ancestors_{ID}.json` (same schema: ahnentafel, name, pID, events[], generation)
+4. Run place resolver — `findUnresolved()` — and geocode new places via Nominatim: `curl 'https://nominatim.openstreetmap.org/search?q={place}+Shetland&format=json&limit=1'`
+5. App automatically loads the right file based on `?id=` param
+
+### Known TNG place codes
+
+`SHI` = Shetland, `SCT` = Scotland, `ORK` = Orkney, `ABD` = Aberdeen, `NBL` = Northumberland, `ENG` = England
+
+### Parsing gotcha
+
+The text pedigree HTML uses table cells for events, not plain text lines. The `B:`, `P:` etc are inside `<span>` tags in `<td>` elements. A regex approach works — see the scraping script pattern:
+```
+&nbsp;(B|M|D|P):(?:&nbsp;)?</span></td>\s*<td[^>]*><span[^>]*>(.*?)(?:&nbsp;)*</span>
+```
 
 ## Place resolver
 
@@ -42,10 +55,11 @@ Ancestor journey map visualization. Takes genealogy data from TNG (The Next Gene
 ## File structure
 
 ```
-data/ancestors.json   — parsed ancestor data (ahnentafel numbered)
-data/places.json      — place name → lat/lng lookup with TNG code mappings
-src/app.js            — main app: map, sidebar, filtering, info panels
-src/places.js         — place resolver (resolvePlace, findUnresolved)
+data/ancestors.json         — Marilyn Halcrow (I210520) ancestor data
+data/ancestors_I227628.json — Burgess tree (I227628) ancestor data
+data/places.json            — shared place name → lat/lng lookup
+src/app.js                  — main app: map, sidebar, filtering, info panels
+src/places.js               — place resolver (resolvePlace, findUnresolved)
 index.html
 style.css
 ```

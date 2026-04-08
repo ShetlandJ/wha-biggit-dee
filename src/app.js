@@ -22,11 +22,24 @@ let activeEvents = new Set(['born', 'married', 'died']);
 let highlightedPerson = null;
 
 async function init() {
+  // Determine which person to load from URL param
+  const params = new URLSearchParams(window.location.search);
+  const personID = params.get('id') || 'I210520';
+  const dataFile = personID === 'I210520'
+    ? './data/ancestors.json'
+    : `./data/ancestors_${personID}.json`;
+
   // Load data
   const [ancestorData, placesData] = await Promise.all([
-    fetch('./data/ancestors.json').then(r => r.json()),
+    fetch(dataFile).then(r => {
+      if (!r.ok) throw new Error(`No data for ${personID}`);
+      return r.json();
+    }),
     fetch('./data/places.json').then(r => r.json()),
-  ]);
+  ]).catch(err => {
+    document.getElementById('root-person').innerHTML = `<div class="name">Person not found</div><div>No data for ${personID}</div>`;
+    throw err;
+  });
 
   ancestors = ancestorData;
   placesLookup = placesData.places;

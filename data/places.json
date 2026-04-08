@@ -336,6 +336,181 @@
       "lng": -4.2,
       "type": "country",
       "name": "Scotland"
+    },
+    "Aberdeen": {
+      "lat": 57.1482,
+      "lng": -2.0928,
+      "type": "parish"
+    },
+    "At sea": {
+      "lat": 60.1382,
+      "lng": -1.1594,
+      "type": "parish"
+    },
+    "Bouster, Yell": {
+      "lat": 60.6071,
+      "lng": -1.1537,
+      "type": "settlement"
+    },
+    "Brough, Whalsay": {
+      "lat": 60.3649,
+      "lng": -0.9954,
+      "type": "settlement"
+    },
+    "Challister, Whalsay": {
+      "lat": 60.3692,
+      "lng": -0.9769,
+      "type": "settlement"
+    },
+    "Champaign, IL, USA": {
+      "lat": 40.1165,
+      "lng": -88.2431,
+      "type": "settlement"
+    },
+    "East Yell": {
+      "lat": 60.5187,
+      "lng": -1.0335,
+      "type": "parish"
+    },
+    "Efstigarth, Yell": {
+      "lat": 60.6166,
+      "lng": -1.1586,
+      "type": "settlement"
+    },
+    "Fair Isle": {
+      "lat": 59.5326,
+      "lng": -1.631,
+      "type": "parish"
+    },
+    "Fetlar": {
+      "lat": 60.5974,
+      "lng": -0.8491,
+      "type": "parish"
+    },
+    "Funzie, Fetlar": {
+      "lat": 60.5893,
+      "lng": -0.7946,
+      "type": "settlement"
+    },
+    "Hospital, Aberdeen": {
+      "lat": 57.5367,
+      "lng": -2.4509,
+      "type": "settlement"
+    },
+    "Huxter, Whalsay": {
+      "lat": 60.3417,
+      "lng": -0.9861,
+      "type": "settlement"
+    },
+    "IL, USA": {
+      "lat": 40.0797,
+      "lng": -89.4337,
+      "type": "settlement"
+    },
+    "Isbister, Whalsay": {
+      "lat": 60.3564,
+      "lng": -0.9609,
+      "type": "settlement"
+    },
+    "Lumbister, Yell": {
+      "lat": 60.6453,
+      "lng": -1.114,
+      "type": "settlement"
+    },
+    "Lunnasting": {
+      "lat": 60.3727,
+      "lng": -1.1308,
+      "type": "parish"
+    },
+    "Melby, Sandness": {
+      "lat": 60.3026,
+      "lng": -1.649,
+      "type": "settlement"
+    },
+    "Mid Yell": {
+      "lat": 60.5974,
+      "lng": -1.0622,
+      "type": "parish"
+    },
+    "Papa Stour": {
+      "lat": 60.3306,
+      "lng": -1.7033,
+      "type": "parish"
+    },
+    "Reafirth, Mid Yell": {
+      "lat": 60.5919,
+      "lng": -1.0642,
+      "type": "settlement"
+    },
+    "Sandness": {
+      "lat": 60.2989,
+      "lng": -1.6522,
+      "type": "parish"
+    },
+    "Skaw, Whalsay": {
+      "lat": 60.376,
+      "lng": -0.9315,
+      "type": "settlement"
+    },
+    "Skerries": {
+      "lat": 60.4208,
+      "lng": -0.7694,
+      "type": "parish"
+    },
+    "South Yell": {
+      "lat": 60.6753,
+      "lng": -0.9985,
+      "type": "parish"
+    },
+    "The Herra, Yell": {
+      "lat": 60.6178,
+      "lng": -1.1539,
+      "type": "settlement"
+    },
+    "USA": {
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "type": "parish"
+    },
+    "Volister, Yell": {
+      "lat": 60.6259,
+      "lng": -1.1316,
+      "type": "settlement"
+    },
+    "Weisdale": {
+      "lat": 60.2543,
+      "lng": -1.2935,
+      "type": "parish"
+    },
+    "West Isle, Skerries": {
+      "lat": 60.4208,
+      "lng": -0.7703,
+      "type": "settlement"
+    },
+    "West Sandwick, Yell": {
+      "lat": 60.5753,
+      "lng": -1.1823,
+      "type": "settlement"
+    },
+    "West Yell": {
+      "lat": 60.5318,
+      "lng": -1.1747,
+      "type": "parish"
+    },
+    "Whalsay": {
+      "lat": 60.3558,
+      "lng": -0.9823,
+      "type": "parish"
+    },
+    "Whiteness": {
+      "lat": 60.2028,
+      "lng": -1.2948,
+      "type": "parish"
+    },
+    "Yell": {
+      "lat": 60.6081,
+      "lng": -1.1617,
+      "type": "parish"
     }
   }
 }
