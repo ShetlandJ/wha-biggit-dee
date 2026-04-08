@@ -343,9 +343,9 @@
       "type": "parish"
     },
     "At sea": {
-      "lat": 60.1382,
-      "lng": -1.1594,
-      "type": "parish"
+      "lat": 60.3,
+      "lng": -2.5,
+      "type": "sea"
     },
     "Bouster, Yell": {
       "lat": 60.6071,
@@ -544,8 +544,8 @@
       "type": "parish"
     },
     "Hoga Baa Ship": {
-      "lat": 60.35,
-      "lng": -0.95,
+      "lat": 60.3,
+      "lng": -2.5,
       "type": "sea"
     }
   }
