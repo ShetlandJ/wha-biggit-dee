@@ -26,7 +26,7 @@ export async function loadPlaces() {
  *
  * Returns null if no match found.
  */
-const KNOWN_CODES = new Set(['SHI', 'SCT', 'ORK', 'ENG', 'WAL', 'IRE', 'NIR']);
+const KNOWN_CODES = new Set(['SHI', 'SCT', 'ORK', 'ENG', 'WAL', 'IRE', 'NIR', 'AUS', 'NSW', 'NZL', 'ABD', 'MLN', 'WLN', 'FIF', 'KCD', 'LKS', 'DEV', 'COR', 'MDX', 'NBL']);
 
 export function resolvePlace(placeString, lookup) {
   if (!placeString) return null;
