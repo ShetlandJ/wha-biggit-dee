@@ -57,10 +57,19 @@ The text pedigree HTML uses table cells for events, not plain text lines. The `B
 
 ```
 data/ancestors.json         — Marilyn Halcrow (I210520) ancestor data
-data/ancestors_I227628.json — Burgess tree (I227628) ancestor data
-data/places.json            — shared place name → lat/lng lookup
+data/ancestors_I227628.json — Mackie Burgess (I227628) ancestor data
+data/ancestors_I228247.json — Michael Stewart (I228247) ancestor data
+data/places.json            — shared place name → lat/lng lookup (~120 places)
 src/app.js                  — main app: map, sidebar, filtering, info panels
 src/places.js               — place resolver (resolvePlace, findUnresolved)
 index.html
 style.css
 ```
+
+## Notes
+
+- "Living" people on Bayanne require authentication to see full data. Scrape from a logged-in browser session, not curl.
+- Ancestor collapse (same person on both tree sides) is handled — place info panel deduplicates by pID.
+- Sea deaths (At Haaf, At sea, Hoga Baa Ship etc) all map to a single point west of Shetland (60.3, -2.5).
+- Place coordinates verified against Nominatim/OSM. Always verify visually — Nominatim returns wrong results for some Shetland places (e.g. multiple "Linga" islands, "Sandwick" in wrong parish).
+- GitHub Pages CDN caches for 10 mins (max-age=600). Hard refresh to bust.
