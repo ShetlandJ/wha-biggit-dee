@@ -19,6 +19,8 @@ App supports multiple people via `?id=` query param. Default is I210520.
 | Marilyn Susan HALCROW | `I210520` | `?id=I210520` | 138, 8 gens | Burra, Northmavine, Tingwall |
 | Mackie John BURGESS | `I227628` | `?id=I227628` | 255, 8 gens | Dunrossness, Yell, Whalsay, Fetlar |
 | Michael STEWART | `I228247` | `?id=I228247` | 202, 8 gens | Whalsay |
+| Colleen Lois HUGHSON | `I224035` | `?id=I224035` | 199, 8 gens | Lerwick, Skerries, Whalsay, Sandsting, Walls, Sandwick |
+| Matthew Graeme HENDERSON | `I194187` | `?id=I194187` | 166, 8 gens | Unst, Yell, Delting, Edinburgh |
 
 ## To add a new person
 
@@ -30,7 +32,7 @@ App supports multiple people via `?id=` query param. Default is I210520.
 
 ### Known TNG place codes
 
-`SHI` = Shetland, `SCT` = Scotland, `ORK` = Orkney, `ABD` = Aberdeen, `NBL` = Northumberland, `ENG` = England
+`SHI` = Shetland, `SCT` = Scotland, `ORK` = Orkney, `ABD` = Aberdeen, `NBL` = Northumberland, `ENG` = England, `MLN` = Midlothian, `WLN` = West Lothian, `FIF` = Fife, `KCD` = Kincardineshire, `LKS` = Lanarkshire, `DEV` = Devon, `COR` = Cornwall, `MDX` = Middlesex
 
 ### Parsing gotcha
 
@@ -59,7 +61,9 @@ The text pedigree HTML uses table cells for events, not plain text lines. The `B
 data/ancestors.json         — Marilyn Halcrow (I210520) ancestor data
 data/ancestors_I227628.json — Mackie Burgess (I227628) ancestor data
 data/ancestors_I228247.json — Michael Stewart (I228247) ancestor data
-data/places.json            — shared place name → lat/lng lookup (~120 places)
+data/ancestors_I224035.json — Colleen Hughson (I224035) ancestor data
+data/ancestors_I194187.json — Matthew Henderson (I194187) ancestor data
+data/places.json            — shared place name → lat/lng lookup (~150 places)
 src/app.js                  — main app: map, sidebar, filtering, info panels
 src/places.js               — place resolver (resolvePlace, findUnresolved)
 index.html

@@ -171,8 +171,8 @@
       "type": "settlement"
     },
     "Delting": {
-      "lat": 60.3916,
-      "lng": -1.3653,
+      "lat": 60.395,
+      "lng": -1.22,
       "type": "parish"
     },
     "Gulberwick": {
@@ -301,8 +301,8 @@
       "type": "settlement"
     },
     "Sandsting & Aithsting": {
-      "lat": 60.25,
-      "lng": -1.41,
+      "lat": 60.22,
+      "lng": -1.42,
       "type": "parish"
     },
     "Roonan, Unst": {
@@ -547,6 +547,232 @@
       "lat": 60.3,
       "lng": -2.5,
       "type": "sea"
+    },
+    "Norwick, Unst": {
+      "lat": 60.805,
+      "lng": -0.8052,
+      "type": "settlement"
+    },
+    "Baltasound, Unst": {
+      "lat": 60.7594,
+      "lng": -0.885,
+      "type": "settlement"
+    },
+    "Westing, Unst": {
+      "lat": 60.7303,
+      "lng": -0.9512,
+      "type": "settlement"
+    },
+    "Collaster, Unst": {
+      "lat": 60.747,
+      "lng": -0.9358,
+      "type": "settlement"
+    },
+    "Burrafirth, Unst": {
+      "lat": 60.8017,
+      "lng": -0.8784,
+      "type": "settlement"
+    },
+    "Caldback, Unst": {
+      "lat": 60.77,
+      "lng": -0.87,
+      "type": "settlement"
+    },
+    "Cliff, Unst": {
+      "lat": 60.7864,
+      "lng": -0.9007,
+      "type": "settlement"
+    },
+    "Sandwick, Unst": {
+      "lat": 60.7014,
+      "lng": -0.8722,
+      "type": "settlement"
+    },
+    "Colvidale, Unst": {
+      "lat": 60.778,
+      "lng": -0.855,
+      "type": "settlement"
+    },
+    "Baliasta, Baltasound, Unst": {
+      "lat": 60.7647,
+      "lng": -0.8906,
+      "type": "settlement"
+    },
+    "Pettister, Unst": {
+      "lat": 60.76,
+      "lng": -0.88,
+      "type": "settlement"
+    },
+    "Gutcher, North Yell": {
+      "lat": 60.6731,
+      "lng": -0.9964,
+      "type": "settlement"
+    },
+    "North Yell": {
+      "lat": 60.6529,
+      "lng": -1.0006,
+      "type": "parish"
+    },
+    "Gloup, North Yell": {
+      "lat": 60.7218,
+      "lng": -1.0721,
+      "type": "settlement"
+    },
+    "North Sandwick, North Yell": {
+      "lat": 60.653,
+      "lng": -1.001,
+      "type": "settlement"
+    },
+    "Setter, North Yell": {
+      "lat": 60.6024,
+      "lng": -1.1035,
+      "type": "settlement"
+    },
+    "Samphray, Yell Sound": {
+      "lat": 60.46,
+      "lng": -1.15,
+      "type": "island"
+    },
+    "South Whiteness": {
+      "lat": 60.1924,
+      "lng": -1.2992,
+      "type": "settlement"
+    },
+    "Ustaness, Whiteness": {
+      "lat": 60.2,
+      "lng": -1.29,
+      "type": "settlement"
+    },
+    "Firth, Delting": {
+      "lat": 60.38,
+      "lng": -1.2,
+      "type": "settlement"
+    },
+    "Caldback, Delting": {
+      "lat": 60.39,
+      "lng": -1.22,
+      "type": "settlement"
+    },
+    "Edinburgh": {
+      "lat": 55.9533,
+      "lng": -3.1884,
+      "type": "city"
+    },
+    "MLN": {
+      "lat": 55.9533,
+      "lng": -3.1884,
+      "type": "county",
+      "name": "Midlothian"
+    },
+    "Bathgate": {
+      "lat": 55.9009,
+      "lng": -3.6415,
+      "type": "town"
+    },
+    "WLN": {
+      "lat": 55.9,
+      "lng": -3.6,
+      "type": "county",
+      "name": "West Lothian"
+    },
+    "Elie": {
+      "lat": 56.1905,
+      "lng": -2.8202,
+      "type": "town"
+    },
+    "FIF": {
+      "lat": 56.2,
+      "lng": -3.15,
+      "type": "county",
+      "name": "Fife"
+    },
+    "Nigg": {
+      "lat": 57.05,
+      "lng": -2.05,
+      "type": "settlement"
+    },
+    "KCD": {
+      "lat": 56.95,
+      "lng": -2.4,
+      "type": "county",
+      "name": "Kincardineshire"
+    },
+    "Currie": {
+      "lat": 55.8964,
+      "lng": -3.3087,
+      "type": "settlement"
+    },
+    "Hamilton": {
+      "lat": 55.7759,
+      "lng": -4.0334,
+      "type": "town"
+    },
+    "LKS": {
+      "lat": 55.77,
+      "lng": -3.95,
+      "type": "county",
+      "name": "Lanarkshire"
+    },
+    "North Petherwin": {
+      "lat": 50.6932,
+      "lng": -4.4613,
+      "type": "settlement"
+    },
+    "DEV": {
+      "lat": 50.7241,
+      "lng": -3.6608,
+      "type": "county",
+      "name": "Devon"
+    },
+    "Teddington": {
+      "lat": 51.4278,
+      "lng": -0.3337,
+      "type": "town"
+    },
+    "MDX": {
+      "lat": 51.45,
+      "lng": -0.33,
+      "type": "county",
+      "name": "Middlesex"
+    },
+    "COR": {
+      "lat": 50.4433,
+      "lng": -4.6247,
+      "type": "county",
+      "name": "Cornwall"
+    },
+    "ENG": {
+      "lat": 52.5,
+      "lng": -1.5,
+      "type": "country",
+      "name": "England"
+    },
+    "Germany": {
+      "lat": 51.1638,
+      "lng": 10.4478,
+      "type": "country"
+    },
+    "Albury, NSW": {
+      "lat": -36.0805,
+      "lng": 146.9163,
+      "type": "city"
+    },
+    "AUS": {
+      "lat": -25.274,
+      "lng": 133.775,
+      "type": "country",
+      "name": "Australia"
+    },
+    "NSW": {
+      "lat": -33.868,
+      "lng": 151.209,
+      "type": "state",
+      "name": "New South Wales"
+    },
+    "Sandsting and Aithsting": {
+      "lat": 60.22,
+      "lng": -1.42,
+      "type": "parish"
     }
   }
 }
