@@ -22,8 +22,12 @@
       <label><input type="checkbox" data-event="died" checked> Deaths</label>
     </div>
     <div id="person-list">
-      <h3>People <span id="person-count"></span></h3>
+      <div id="list-tabs">
+        <button class="list-tab active" data-tab="people">People <span id="person-count"></span></button>
+        <button class="list-tab" data-tab="surnames">Surnames</button>
+      </div>
       <div id="people"></div>
+      <div id="surnames" class="hidden"></div>
     </div>
   </div>
   <div id="map"></div>

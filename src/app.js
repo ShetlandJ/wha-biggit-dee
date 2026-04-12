@@ -20,6 +20,7 @@ let journeyLines = new Map();  // ahnentafel -> polyline
 let activeGenerations = new Set([1, 2, 3, 4, 5, 6, 7, 8]);
 let activeEvents = new Set(['born', 'married', 'died']);
 let highlightedPerson = null;
+let activeTab = 'people';
 
 async function init() {
   // Determine which person to load from URL param
@@ -114,6 +115,16 @@ function initSidebar() {
     });
   });
 
+  // Tab switching
+  document.querySelectorAll('.list-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      activeTab = tab.dataset.tab;
+      document.querySelectorAll('.list-tab').forEach(t => t.classList.toggle('active', t.dataset.tab === activeTab));
+      document.getElementById('people').classList.toggle('hidden', activeTab !== 'people');
+      document.getElementById('surnames').classList.toggle('hidden', activeTab !== 'surnames');
+    });
+  });
+
   // Info panel close
   document.getElementById('info-close').addEventListener('click', () => {
     document.getElementById('info-panel').classList.add('hidden');
@@ -126,6 +137,7 @@ function render() {
   renderPlaceMarkers();
   renderJourneyLines();
   renderPersonList();
+  renderSurnameList();
 }
 
 function clearMap() {
@@ -260,6 +272,33 @@ function renderPersonList() {
       highlightPerson(ahn);
     });
   });
+}
+
+function renderSurnameList() {
+  const container = document.getElementById('surnames');
+  const visible = ancestors.filter(a => activeGenerations.has(a.generation));
+
+  const counts = new Map();
+  for (const a of visible) {
+    if (a.name === 'Living') continue;
+    const parts = a.name.split(/\s+/);
+    const surname = parts.filter(p => p === p.toUpperCase() && /^[A-Z]+$/.test(p)).join(' ');
+    if (!surname) continue;
+    counts.set(surname, (counts.get(surname) || 0) + 1);
+  }
+
+  const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+  const max = sorted.length > 0 ? sorted[0][1] : 1;
+
+  container.innerHTML = sorted.map(([name, count], i) => {
+    const pct = (count / max) * 100;
+    return `<div class="surname-item">
+      <span class="surname-rank">${i + 1}</span>
+      <span class="surname-name">${name}</span>
+      <span class="surname-bar-wrap"><span class="surname-bar" style="width:${pct}%"></span></span>
+      <span class="surname-count">${count}</span>
+    </div>`;
+  }).join('');
 }
 
 function highlightPerson(ahnentafel) {
