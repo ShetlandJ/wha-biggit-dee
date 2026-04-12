@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ancestor Journeys</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="stylesheet" href="style.css?v=3" />
 </head>
 <body>
   <div id="sidebar">
@@ -30,12 +30,14 @@
       <div id="surnames" class="hidden"></div>
     </div>
   </div>
-  <div id="map"></div>
+  <div id="map-container">
+    <div id="map"></div>
+  </div>
   <div id="info-panel" class="hidden">
     <button id="info-close">&times;</button>
     <div id="info-content"></div>
   </div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script type="module" src="src/app.js?v=2"></script>
+  <script type="module" src="src/app.js?v=3"></script>
 </body>
 </html>

@@ -195,7 +195,8 @@ body {
   flex: 1;
   min-width: 40px;
   height: 12px;
-  display: block;
+  display: flex;
+  gap: 1px;
 }
 
 .surname-bar {
@@ -204,6 +205,10 @@ body {
   border-radius: 2px;
   background: #666;
   min-width: 2px;
+}
+
+.compare-mode .surname-bar-wrap {
+  height: 10px;
 }
 
 .surname-count {
@@ -250,9 +255,50 @@ body {
   flex-shrink: 0;
 }
 
+#map-container {
+  flex: 1;
+  display: flex;
+  min-width: 0;
+}
+
 #map {
   flex: 1;
   background: #111;
+}
+
+/* Comparison mode */
+#map-container.split {
+  gap: 2px;
+}
+
+#map-container.split .map-pane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.map-view {
+  flex: 1;
+  background: #111;
+}
+
+.map-label {
+  background: #1a1a1a;
+  color: #ccc;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-top: 2px solid #888;
+  border-bottom: 1px solid #333;
+  text-align: center;
+  font-weight: 500;
+}
+
+.pane-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 
 /* Info panel */
@@ -482,9 +528,17 @@ body {
     font-size: 12px;
   }
 
-  #map {
+  #map-container {
     order: 1;
     min-height: 55vh;
+  }
+
+  #map-container.split {
+    flex-direction: column;
+  }
+
+  #map-container.split .map-pane {
+    min-height: 0;
   }
 
   #info-panel {
