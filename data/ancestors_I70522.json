@@ -3,7 +3,12 @@
     "ahnentafel": 1,
     "name": "Neil Alexander Muir MANSON",
     "pID": "I70522",
-    "events": [],
+    "events": [
+      {
+        "type": "born",
+        "date": "1959"
+      }
+    ],
     "generation": 1
   },
   {

@@ -3,7 +3,12 @@
     "ahnentafel": 1,
     "name": "Shirley Wilda WILLIAMSON",
     "pID": "I161735",
-    "events": [],
+    "events": [
+      {
+        "type": "born",
+        "date": "1961"
+      }
+    ],
     "generation": 1
   },
   {
