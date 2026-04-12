@@ -21,6 +21,8 @@ App supports multiple people via `?id=` query param. Default is I210520.
 | Michael STEWART | `I228247` | `?id=I228247` | 202, 8 gens | Whalsay |
 | Colleen Lois HUGHSON | `I224035` | `?id=I224035` | 199, 8 gens | Lerwick, Skerries, Whalsay, Sandsting, Walls, Sandwick |
 | Matthew Graeme HENDERSON | `I194187` | `?id=I194187` | 166, 8 gens | Unst, Yell, Delting, Edinburgh |
+| Shirley Wilda WILLIAMSON | `I161735` | `?id=I161735` | 153, 8 gens | Walls, Quarff, Foula, Lerwick |
+| Neil Alexander Muir MANSON | `I70522` | `?id=I70522` | 121, 8 gens | Quarff, Bressay, Lerwick |
 
 ## To add a new person
 
@@ -32,7 +34,7 @@ App supports multiple people via `?id=` query param. Default is I210520.
 
 ### Known TNG place codes
 
-`SHI` = Shetland, `SCT` = Scotland, `ORK` = Orkney, `ABD` = Aberdeen, `NBL` = Northumberland, `ENG` = England, `MLN` = Midlothian, `WLN` = West Lothian, `FIF` = Fife, `KCD` = Kincardineshire, `LKS` = Lanarkshire, `DEV` = Devon, `COR` = Cornwall, `MDX` = Middlesex
+`SHI` = Shetland, `SCT` = Scotland, `ORK` = Orkney, `ABD` = Aberdeen, `NBL` = Northumberland, `ENG` = England, `MLN` = Midlothian, `WLN` = West Lothian, `FIF` = Fife, `KCD` = Kincardineshire, `LKS` = Lanarkshire, `DEV` = Devon, `COR` = Cornwall, `MDX` = Middlesex, `BEW` = Berwickshire, `BER` = Berwick, `DUR` = Durham
 
 ### Parsing gotcha
 
@@ -63,7 +65,9 @@ data/ancestors_I227628.json — Mackie Burgess (I227628) ancestor data
 data/ancestors_I228247.json — Michael Stewart (I228247) ancestor data
 data/ancestors_I224035.json — Colleen Hughson (I224035) ancestor data
 data/ancestors_I194187.json — Matthew Henderson (I194187) ancestor data
-data/places.json            — shared place name → lat/lng lookup (~150 places)
+data/ancestors_I161735.json — Shirley Williamson (I161735) ancestor data
+data/ancestors_I70522.json  — Neil Manson (I70522) ancestor data
+data/places.json            — shared place name → lat/lng lookup (~170 places)
 src/app.js                  — main app: map, sidebar, filtering, info panels
 src/places.js               — place resolver (resolvePlace, findUnresolved)
 index.html

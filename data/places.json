@@ -216,8 +216,8 @@
       "type": "island"
     },
     "Nesting": {
-      "lat": 60.2873,
-      "lng": -1.1217,
+      "lat": 60.2855,
+      "lng": -1.145,
       "type": "parish"
     },
     "Stucca, Hillswick, Northmavine": {
@@ -783,6 +783,100 @@
       "lat": -36.0805,
       "lng": 146.9163,
       "type": "city"
+    },
+    "Quarff": {
+      "lat": 60.1043,
+      "lng": -1.2254,
+      "type": "parish"
+    },
+    "Wester Quarff": {
+      "lat": 60.0993,
+      "lng": -1.2648,
+      "type": "settlement"
+    },
+    "Easter Quarff": {
+      "lat": 60.1037,
+      "lng": -1.2329,
+      "type": "settlement"
+    },
+    "Foula": {
+      "lat": 60.1338,
+      "lng": -2.0831,
+      "type": "island"
+    },
+    "Bressay": {
+      "lat": 60.1461,
+      "lng": -1.0835,
+      "type": "island"
+    },
+    "Dale of Walls": {
+      "lat": 60.2567,
+      "lng": -1.6738,
+      "type": "settlement"
+    },
+    "Walls and Sandness": {
+      "lat": 60.24,
+      "lng": -1.58,
+      "type": "parish"
+    },
+    "Berwick-upon-Tweed": {
+      "lat": 55.7692,
+      "lng": -2.0026,
+      "type": "town"
+    },
+    "Berwick": {
+      "lat": 55.7692,
+      "lng": -2.0026,
+      "type": "town"
+    },
+    "Gateshead": {
+      "lat": 54.9626,
+      "lng": -1.6019,
+      "type": "town"
+    },
+    "Kildrummy": {
+      "lat": 57.2349,
+      "lng": -2.9052,
+      "type": "settlement"
+    },
+    "Fintray": {
+      "lat": 57.2377,
+      "lng": -2.2649,
+      "type": "settlement"
+    },
+    "North Leith": {
+      "lat": 55.977,
+      "lng": -3.1779,
+      "type": "settlement"
+    },
+    "NZL": {
+      "lat": -41.2865,
+      "lng": 174.7762,
+      "type": "country",
+      "name": "New Zealand"
+    },
+    "Avenal": {
+      "lat": -46.4009,
+      "lng": 168.3456,
+      "type": "settlement"
+    },
+    "BEW": {
+      "lat": 55.77,
+      "lng": -2.43,
+      "type": "county",
+      "name": "Berwickshire"
+    },
+    "BER": {
+      "lat": 55.7692,
+      "lng": -2.0026,
+      "type": "county",
+      "name": "Berwick"
+    },
+    "DUR": {
+      "lat": 54.776,
+      "lng": -1.5757,
+      "type": "county",
+      "name": "Durham"
     }
   }
 }
