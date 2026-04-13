@@ -23,6 +23,7 @@ App supports multiple people via `?id=` query param. Default is I210520.
 | Matthew Graeme HENDERSON | `I194187` | `?id=I194187` | 166, 8 gens | Unst, Yell, Delting, Edinburgh |
 | Shirley Wilda WILLIAMSON | `I161735` | `?id=I161735` | 153, 8 gens | Walls, Quarff, Foula, Lerwick |
 | Neil Alexander Muir MANSON | `I70522` | `?id=I70522` | 121, 8 gens | Quarff, Bressay, Lerwick |
+| Andrew Peter SANDISON | `I225912` | `?id=I225912` | 74, 8 gens | Lerwick, Nesting, Yell, Colinton |
 
 ## To add a new person
 
@@ -67,6 +68,7 @@ data/ancestors_I224035.json — Colleen Hughson (I224035) ancestor data
 data/ancestors_I194187.json — Matthew Henderson (I194187) ancestor data
 data/ancestors_I161735.json — Shirley Williamson (I161735) ancestor data
 data/ancestors_I70522.json  — Neil Manson (I70522) ancestor data
+data/ancestors_I225912.json — Andrew Sandison (I225912) ancestor data
 data/places.json            — shared place name → lat/lng lookup (~170 places)
 src/app.js                  — main app: map, sidebar, filtering, info panels
 src/places.js               — place resolver (resolvePlace, findUnresolved)

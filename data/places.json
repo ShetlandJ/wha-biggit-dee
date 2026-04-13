@@ -653,10 +653,30 @@
       "lng": -1.22,
       "type": "settlement"
     },
+    "Gletness": {
+      "lat": 60.2488,
+      "lng": -1.1486,
+      "type": "settlement"
+    },
+    "Fish Holm": {
+      "lat": 60.4491,
+      "lng": -1.1344,
+      "type": "islet"
+    },
+    "Fisholm": {
+      "lat": 60.4491,
+      "lng": -1.1344,
+      "type": "islet"
+    },
     "Edinburgh": {
       "lat": 55.9533,
       "lng": -3.1884,
       "type": "city"
+    },
+    "Colinton": {
+      "lat": 55.9073,
+      "lng": -3.2576,
+      "type": "suburb"
     },
     "MLN": {
       "lat": 55.9533,
