@@ -34,10 +34,11 @@ export function resolvePlace(placeString, lookup) {
   // Split and trim parts
   const parts = placeString.split(',').map(p => p.trim()).filter(Boolean);
 
-  // Strip known codes from the end, but remember them for context
+  // Strip known codes from the end, but remember them for context.
+  // Normalize trailing '?' (TNG convention for uncertain codes) so lookup works.
   const codes = [];
   while (parts.length > 0 && KNOWN_CODES.has(parts[parts.length - 1].replace('?', ''))) {
-    codes.unshift(parts.pop());
+    codes.unshift(parts.pop().replace('?', ''));
   }
 
   if (parts.length === 0) {

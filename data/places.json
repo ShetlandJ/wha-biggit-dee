@@ -554,6 +554,26 @@
       "lng": -2.9096,
       "type": "settlement"
     },
+    "Mid and South Yell": {
+      "lat": 60.5974,
+      "lng": -1.0622,
+      "type": "parish"
+    },
+    "Bigga": {
+      "lat": 60.4942,
+      "lng": -1.1906,
+      "type": "island"
+    },
+    "Browney Colliery": {
+      "lat": 54.7456,
+      "lng": -1.6101,
+      "type": "settlement"
+    },
+    "Murton": {
+      "lat": 54.8156,
+      "lng": -1.3898,
+      "type": "settlement"
+    },
     "Mid & South Yell": {
       "lat": 60.5974,
       "lng": -1.0622,
