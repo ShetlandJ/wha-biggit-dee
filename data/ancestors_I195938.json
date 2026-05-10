@@ -2447,6 +2447,11 @@
         "type": "born",
         "date": "Bef 1726",
         "place": "Germany"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": "Unst, SHI, SCT"
       }
     ],
     "generation": 8
