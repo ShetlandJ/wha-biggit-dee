@@ -533,6 +533,27 @@
       "type": "county",
       "name": "Northumberland"
     },
+    "LAN": {
+      "lat": 53.8,
+      "lng": -2.6,
+      "type": "county",
+      "name": "Lancashire"
+    },
+    "Liverpool": {
+      "lat": 53.4072,
+      "lng": -2.9917,
+      "type": "city"
+    },
+    "Prescot": {
+      "lat": 53.4276,
+      "lng": -2.8042,
+      "type": "settlement"
+    },
+    "West Derby": {
+      "lat": 53.4326,
+      "lng": -2.9096,
+      "type": "settlement"
+    },
     "Mid & South Yell": {
       "lat": 60.5974,
       "lng": -1.0622,

@@ -24,6 +24,8 @@ App supports multiple people via `?id=` query param. Default is I210520.
 | Shirley Wilda WILLIAMSON | `I161735` | `?id=I161735` | 153, 8 gens | Walls, Quarff, Foula, Lerwick |
 | Neil Alexander Muir MANSON | `I70522` | `?id=I70522` | 121, 8 gens | Quarff, Bressay, Lerwick |
 | Andrew Peter SANDISON | `I225912` | `?id=I225912` | 74, 8 gens | Lerwick, Nesting, Yell, Colinton |
+| Vincent WALTERSON | `I207222` | `?id=I207222` | 55, 8 gens | Liverpool, Sandness, Walls, Aithsting, Sandsting |
+| Ian William WALTERSON | `I366084` | `?id=I366084` | 55, 8 gens | Liverpool, Sandness, Walls, Aithsting, Sandsting (Vincent's brother) |
 
 ## To add a new person
 
@@ -35,7 +37,7 @@ App supports multiple people via `?id=` query param. Default is I210520.
 
 ### Known TNG place codes
 
-`SHI` = Shetland, `SCT` = Scotland, `ORK` = Orkney, `ABD` = Aberdeen, `NBL` = Northumberland, `ENG` = England, `MLN` = Midlothian, `WLN` = West Lothian, `FIF` = Fife, `KCD` = Kincardineshire, `LKS` = Lanarkshire, `DEV` = Devon, `COR` = Cornwall, `MDX` = Middlesex, `BEW` = Berwickshire, `BER` = Berwick, `DUR` = Durham
+`SHI` = Shetland, `SCT` = Scotland, `ORK` = Orkney, `ABD` = Aberdeen, `NBL` = Northumberland, `ENG` = England, `MLN` = Midlothian, `WLN` = West Lothian, `FIF` = Fife, `KCD` = Kincardineshire, `LKS` = Lanarkshire, `DEV` = Devon, `COR` = Cornwall, `MDX` = Middlesex, `BEW` = Berwickshire, `BER` = Berwick, `DUR` = Durham, `LAN` = Lancashire
 
 ### Parsing gotcha
 
@@ -69,6 +71,8 @@ data/ancestors_I194187.json — Matthew Henderson (I194187) ancestor data
 data/ancestors_I161735.json — Shirley Williamson (I161735) ancestor data
 data/ancestors_I70522.json  — Neil Manson (I70522) ancestor data
 data/ancestors_I225912.json — Andrew Sandison (I225912) ancestor data
+data/ancestors_I207222.json — Vincent Walterson (I207222) ancestor data
+data/ancestors_I366084.json — Ian Walterson (I366084) ancestor data — Vincent's brother
 data/places.json            — shared place name → lat/lng lookup (~170 places)
 src/app.js                  — main app: map, sidebar, filtering, info panels
 src/places.js               — place resolver (resolvePlace, findUnresolved)
