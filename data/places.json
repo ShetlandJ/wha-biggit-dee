@@ -900,6 +900,11 @@
       "lng": -2.9052,
       "type": "settlement"
     },
+    "Fraserburgh": {
+      "lat": 57.6936,
+      "lng": -2.0051,
+      "type": "town"
+    },
     "Fintray": {
       "lat": 57.2377,
       "lng": -2.2649,

@@ -27,6 +27,7 @@ App supports multiple people via `?id=` query param. Default is I210520.
 | Vincent WALTERSON | `I207222` | `?id=I207222` | 55, 8 gens | Liverpool, Sandness, Walls, Aithsting, Sandsting |
 | Ian William WALTERSON | `I366084` | `?id=I366084` | 55, 8 gens | Liverpool, Sandness, Walls, Aithsting, Sandsting (Vincent's brother) |
 | Louise MALCOLMSON | `I195938` | `?id=I195938` | 171, 8 gens | Lerwick, Sound, Unst, Mid Yell, Tingwall, Toft (Delting), Browney Colliery (Durham) |
+| Hannah Mary GOODLAD | `I317065` | `?id=I317065` | 121, 8 gens | Burra, Whalsay, Weisdale, Whiteness, Sandsting, Lunnasting, Dunrossness; maternal line Fraserburgh (Aberdeenshire), no Shetland ancestry |
 
 ## To add a new person
 
@@ -75,6 +76,7 @@ data/ancestors_I225912.json — Andrew Sandison (I225912) ancestor data
 data/ancestors_I207222.json — Vincent Walterson (I207222) ancestor data
 data/ancestors_I366084.json — Ian Walterson (I366084) ancestor data — Vincent's brother
 data/ancestors_I195938.json — Louise Malcolmson (I195938) ancestor data
+data/ancestors_I317065.json — Hannah Mary Goodlad (I317065) ancestor data — paternal GOODLAD line, maternal side non-Shetland
 data/places.json            — shared place name → lat/lng lookup (~170 places)
 src/app.js                  — main app: map, sidebar, filtering, info panels
 src/places.js               — place resolver (resolvePlace, findUnresolved)
