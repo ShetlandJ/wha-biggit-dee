@@ -943,6 +943,129 @@
       "lng": -1.5757,
       "type": "county",
       "name": "Durham"
+    },
+    "Monikie": {
+      "lat": 56.5379628,
+      "lng": -2.8149155,
+      "type": "settlement"
+    },
+    "Tealing, Dundee": {
+      "lat": 56.5331528,
+      "lng": -2.959138,
+      "type": "settlement"
+    },
+    "Dundee": {
+      "lat": 56.4605938,
+      "lng": -2.97019,
+      "type": "town"
+    },
+    "Monifieth": {
+      "lat": 56.481796,
+      "lng": -2.8180074,
+      "type": "town"
+    },
+    "Broughty Ferry": {
+      "lat": 56.4676434,
+      "lng": -2.8739864,
+      "type": "settlement"
+    },
+    "Montrose": {
+      "lat": 56.7114295,
+      "lng": -2.4681544,
+      "type": "town"
+    },
+    "Carmylie": {
+      "lat": 56.5731444,
+      "lng": -2.7348882,
+      "type": "settlement"
+    },
+    "Arbirlot": {
+      "lat": 56.5555576,
+      "lng": -2.6497707,
+      "type": "settlement"
+    },
+    "Balmerino": {
+      "lat": 56.4107811,
+      "lng": -3.0419089,
+      "type": "settlement"
+    },
+    "Bamerino": {
+      "lat": 56.4107811,
+      "lng": -3.0419089,
+      "type": "settlement"
+    },
+    "Kilmany": {
+      "lat": 56.3845261,
+      "lng": -2.9935502,
+      "type": "settlement"
+    },
+    "Logie": {
+      "lat": 56.3720742,
+      "lng": -2.9670405,
+      "type": "settlement"
+    },
+    "Monimail": {
+      "lat": 56.3147556,
+      "lng": -3.134824,
+      "type": "settlement"
+    },
+    "Seahouses": {
+      "lat": 55.5817163,
+      "lng": -1.6536511,
+      "type": "town"
+    },
+    "Dumfries": {
+      "lat": 55.0691831,
+      "lng": -3.6106856,
+      "type": "town"
+    },
+    "Lauder": {
+      "lat": 55.7193554,
+      "lng": -2.7483829,
+      "type": "town"
+    },
+    "Cullivoe": {
+      "lat": 60.699729,
+      "lng": -1.0248666,
+      "type": "settlement"
+    },
+    "Bluemull Sound": {
+      "lat": 60.69,
+      "lng": -0.96,
+      "type": "sea"
+    },
+    "At haaf?": {
+      "lat": 60.3,
+      "lng": -2.5,
+      "type": "sea"
+    },
+    "off South Ronaldsay": {
+      "lat": 58.72,
+      "lng": -2.93,
+      "type": "sea"
+    },
+    "ANS": {
+      "lat": 56.7,
+      "lng": -2.9,
+      "type": "county",
+      "name": "Angus"
+    },
+    "DFS": {
+      "lat": 55.2,
+      "lng": -3.6,
+      "type": "county",
+      "name": "Dumfriesshire"
+    },
+    "OKI": {
+      "lat": 58.98,
+      "lng": -2.96,
+      "type": "county",
+      "name": "Orkney"
+    },
+    "Manse of Monikie": {
+      "lat": 56.5379628,
+      "lng": -2.8149155,
+      "type": "settlement"
     }
   }
 }
