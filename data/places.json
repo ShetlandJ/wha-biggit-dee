@@ -1494,6 +1494,51 @@
       "lng": -2.7512,
       "type": "county",
       "name": "East Lothian"
+    },
+    "Sydney": {
+      "lat": -33.8698,
+      "lng": 151.2083,
+      "type": "city"
+    },
+    "St. Leonards, Sydney": {
+      "lat": -33.8226,
+      "lng": 151.1923,
+      "type": "suburb"
+    },
+    "RNS Hospital, St. Leonards": {
+      "lat": -33.8226,
+      "lng": 151.1923,
+      "type": "suburb"
+    },
+    "Neutral Bay, Sydney": {
+      "lat": -33.8343,
+      "lng": 151.2182,
+      "type": "suburb"
+    },
+    "Chatswood, Sydney": {
+      "lat": -33.7967,
+      "lng": 151.1814,
+      "type": "suburb"
+    },
+    "Mosman": {
+      "lat": -33.8284,
+      "lng": 151.2477,
+      "type": "suburb"
+    },
+    "Paddington, Sydney": {
+      "lat": -33.8842,
+      "lng": 151.2273,
+      "type": "suburb"
+    },
+    "Botany Bay": {
+      "lat": -33.9815,
+      "lng": 151.1796,
+      "type": "bay"
+    },
+    "Bourke": {
+      "lat": -30.09,
+      "lng": 145.938,
+      "type": "town"
     }
   }
 }
