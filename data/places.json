@@ -1898,6 +1898,21 @@
       "lat": 60.3,
       "lng": -2.5,
       "type": "sea"
+    },
+    "Cullen": {
+      "lat": 57.6911,
+      "lng": -2.8196,
+      "type": "town"
+    },
+    "Crovie": {
+      "lat": 57.679,
+      "lng": -2.3241,
+      "type": "village"
+    },
+    "Golspie": {
+      "lat": 57.9737,
+      "lng": -3.9756,
+      "type": "village"
     }
   }
 }
