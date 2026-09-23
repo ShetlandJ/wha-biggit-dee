@@ -1590,6 +1590,36 @@
       "lat": -45.9425,
       "lng": 169.2619,
       "type": "town"
+    },
+    "Firth": {
+      "lat": 59.0093,
+      "lng": -3.1232,
+      "type": "parish"
+    },
+    "Horraldshay, Firth": {
+      "lat": 59.0161,
+      "lng": -3.1122,
+      "type": "settlement"
+    },
+    "Rendall": {
+      "lat": 59.0597,
+      "lng": -3.0706,
+      "type": "parish"
+    },
+    "Harray": {
+      "lat": 59.0393,
+      "lng": -3.1899,
+      "type": "parish"
+    },
+    "Stronsay": {
+      "lat": 59.1166,
+      "lng": -2.5629,
+      "type": "island"
+    },
+    "Kirkwall": {
+      "lat": 58.9816,
+      "lng": -2.9604,
+      "type": "town"
     }
   }
 }
