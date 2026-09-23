@@ -845,6 +845,11 @@
       "lng": 146.9163,
       "type": "city"
     },
+    "Aberdeen, NSW, AUS": {
+      "lat": -32.1669,
+      "lng": 150.892,
+      "type": "town"
+    },
     "Quarff": {
       "lat": 60.1043,
       "lng": -1.2254,

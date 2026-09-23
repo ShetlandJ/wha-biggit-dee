@@ -31,6 +31,13 @@ const KNOWN_CODES = new Set(['SHI', 'SCT', 'ORK', 'OKI', 'ENG', 'WAL', 'IRE', 'N
 export function resolvePlace(placeString, lookup) {
   if (!placeString) return null;
 
+  // Exact full-string key first, so region-scoped keys (e.g. "Aberdeen, NSW, AUS")
+  // aren't collapsed onto a namesake once the codes are stripped.
+  const exact = lookup[placeString.trim()];
+  if (exact) {
+    return { lat: exact.lat, lng: exact.lng, matchedKey: placeString.trim(), precision: 'exact', type: exact.type };
+  }
+
   // Split and trim parts
   const parts = placeString.split(',').map(p => p.trim()).filter(Boolean);
 
