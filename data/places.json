@@ -1468,6 +1468,32 @@
       "lat": 55.8178,
       "lng": -4.2604,
       "type": "village"
+    },
+    "Musselburgh": {
+      "lat": 55.9421,
+      "lng": -3.0539,
+      "type": "town"
+    },
+    "Upper Scalloway": {
+      "lat": 60.1416,
+      "lng": -1.2711,
+      "type": "village"
+    },
+    "Nestng": {
+      "lat": 60.2855,
+      "lng": -1.145,
+      "type": "parish"
+    },
+    "At whaling": {
+      "lat": 60.3,
+      "lng": -2.5,
+      "type": "sea"
+    },
+    "ELN": {
+      "lat": 55.9158,
+      "lng": -2.7512,
+      "type": "county",
+      "name": "East Lothian"
     }
   }
 }
