@@ -1776,6 +1776,16 @@
       "lat": 60.691,
       "lng": -0.9111,
       "type": "settlement"
+    },
+    "Canisbay": {
+      "lat": 58.6329,
+      "lng": -3.1234,
+      "type": "parish"
+    },
+    "Perth": {
+      "lat": 56.3959,
+      "lng": -3.4303,
+      "type": "city"
     }
   }
 }
