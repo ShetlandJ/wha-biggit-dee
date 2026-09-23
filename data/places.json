@@ -1731,6 +1731,46 @@
       "lng": 0.4647,
       "type": "county",
       "name": "Essex"
+    },
+    "Stracathro": {
+      "lat": 56.7802,
+      "lng": -2.6218,
+      "type": "parish"
+    },
+    "Johnshaven": {
+      "lat": 56.7949,
+      "lng": -2.3358,
+      "type": "village"
+    },
+    "West Hartlepool": {
+      "lat": 54.6868,
+      "lng": -1.2078,
+      "type": "town"
+    },
+    "Logie Pert": {
+      "lat": 56.7694,
+      "lng": -2.547,
+      "type": "parish"
+    },
+    "Tannadice": {
+      "lat": 56.7124,
+      "lng": -2.8591,
+      "type": "village"
+    },
+    "Eday": {
+      "lat": 59.1943,
+      "lng": -2.77,
+      "type": "island"
+    },
+    "South Cunningsburgh": {
+      "lat": 60.0456,
+      "lng": -1.2282,
+      "type": "parish"
+    },
+    "At sea?": {
+      "lat": 60.3,
+      "lng": -2.5,
+      "type": "sea"
     }
   }
 }
