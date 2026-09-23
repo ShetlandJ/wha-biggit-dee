@@ -1893,6 +1893,11 @@
       "lat": 57.4164,
       "lng": -1.8529,
       "type": "village"
+    },
+    "At Fetlar Haaf": {
+      "lat": 60.3,
+      "lng": -2.5,
+      "type": "sea"
     }
   }
 }
