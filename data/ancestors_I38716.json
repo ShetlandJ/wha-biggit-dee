@@ -1,0 +1,1013 @@
+[
+  {
+    "ahnentafel": 1,
+    "name": "Thomas John DUNCAN",
+    "pID": "I38716",
+    "events": [
+      {
+        "type": "born",
+        "date": "22 Mar 1904",
+        "place": "52 Burgh Road, Lerwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "23 Jun 1976",
+        "place": "Gilbert Bain Hospital, Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 1
+  },
+  {
+    "ahnentafel": 2,
+    "name": "Thomas DUNCAN",
+    "pID": "I10193",
+    "events": [
+      {
+        "type": "born",
+        "date": "1 Sep 1870",
+        "place": "Collafirth, Delting, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "2 Apr 1902",
+        "place": "Rechabite Hall, Lerwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "18 Feb 1943",
+        "place": "Garthspool Place, Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 2
+  },
+  {
+    "ahnentafel": 4,
+    "name": "Thomas DUNCAN",
+    "pID": "I113836",
+    "events": [
+      {
+        "type": "born",
+        "date": "20 Nov 1846",
+        "place": "Camperdown, Delting, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "21 Dec 1869",
+        "place": "United Presbyterian Church, Mossbank, Delting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "29 Nov 1921",
+        "place": "Combination Hospital, Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 3
+  },
+  {
+    "ahnentafel": 8,
+    "name": "Thomas DUNCAN",
+    "pID": "I94816",
+    "events": [
+      {
+        "type": "born",
+        "date": "1820",
+        "place": "Camperdown, Delting, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "11 Dec 1845",
+        "place": "Delting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "22 Feb 1897",
+        "place": "Toft, Delting, SHI, SCT"
+      }
+    ],
+    "generation": 4
+  },
+  {
+    "ahnentafel": 16,
+    "name": "Thomas DUNCAN",
+    "pID": "I57158",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1785",
+        "place": "Gruting, Delting, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "15 Feb 1804",
+        "place": "Delting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 17,
+    "name": "Marion HENDERSON",
+    "pID": "I57159",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1786",
+        "place": "Gruting, Delting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 9,
+    "name": "Barbara MANSON",
+    "pID": "I7667",
+    "events": [
+      {
+        "type": "born",
+        "date": "1821",
+        "place": "West Sandwick, Yell, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "19 Jul 1877",
+        "place": "Collafirth, Delting, SHI, SCT"
+      }
+    ],
+    "generation": 4
+  },
+  {
+    "ahnentafel": 18,
+    "name": "Simeon MANSON",
+    "pID": "I6469",
+    "events": [
+      {
+        "type": "born",
+        "date": "1775",
+        "place": "West Sandwick, Yell, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "24 May 1807",
+        "place": "Mid & South Yell, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Aft 1841",
+        "place": ""
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 19,
+    "name": "Janet Catherine JOHNSON",
+    "pID": "I6470",
+    "events": [
+      {
+        "type": "born",
+        "date": "21 Nov 1785",
+        "place": "West Sandwick, Yell, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "9 Apr 1879",
+        "place": "Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 38,
+    "name": "John JOHNSON",
+    "pID": "I6471",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1769",
+        "place": "Hivdigarth, North-a-Voe, Yell, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "1785",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 39,
+    "name": "Elizabeth HUGHSON",
+    "pID": "I17048",
+    "events": [
+      {
+        "type": "born",
+        "date": "1758",
+        "place": "Mid Yell, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Aft 1851",
+        "place": ""
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 78,
+    "name": "Magnus HUGHSON",
+    "pID": "I10220",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1736",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 79,
+    "name": "Janet STOVE",
+    "pID": "I10221",
+    "events": [
+      {
+        "type": "born",
+        "date": "21 Jul 1735",
+        "place": "Hamnavoe, South Yell, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 158,
+    "name": "Robert STOVE",
+    "pID": "I10222",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1715",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 5,
+    "name": "Janet BLANCE",
+    "pID": "I10447",
+    "events": [
+      {
+        "type": "born",
+        "date": "1843",
+        "place": "Mossbank, Delting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "12 Jan 1918",
+        "place": "Lower Lochside, Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 3
+  },
+  {
+    "ahnentafel": 10,
+    "name": "Gilbert BLANCE",
+    "pID": "I113773",
+    "events": [
+      {
+        "type": "born",
+        "date": "9 Oct 1803",
+        "place": "Coldback, Delting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "26 May 1887",
+        "place": "Mossbank, Delting, SHI, SCT"
+      }
+    ],
+    "generation": 4
+  },
+  {
+    "ahnentafel": 20,
+    "name": "John BLANCE",
+    "pID": "I6912",
+    "events": [
+      {
+        "type": "born",
+        "date": "1770",
+        "place": "Caldback, Delting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Aft 1841",
+        "place": ""
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 40,
+    "name": "Peter BLANCE",
+    "pID": "I36900",
+    "events": [
+      {
+        "type": "born",
+        "date": "1732",
+        "place": "Caldback, Delting, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "27 Dec 1754",
+        "place": "Delting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": "Caldback, Delting, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 41,
+    "name": "Barbara HENRYSDAUGHTER",
+    "pID": "I36901",
+    "events": [
+      {
+        "type": "born",
+        "date": "1734",
+        "place": "Delting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": "Caldback, Delting, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 21,
+    "name": "Catherine WILLIAMSON",
+    "pID": "I6913",
+    "events": [
+      {
+        "type": "born",
+        "date": "1779",
+        "place": "Weatherstaness, Delting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Aft 1841",
+        "place": ""
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 42,
+    "name": "Gilbert WILLIAMSON",
+    "pID": "I109988",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1740",
+        "place": "Delting, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "20 Nov 1759",
+        "place": "Delting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 43,
+    "name": "Margaret TULLOCH",
+    "pID": "I109989",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1741",
+        "place": "Northmavine, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 11,
+    "name": "Elizabeth MANSON",
+    "pID": "I7669",
+    "events": [
+      {
+        "type": "born",
+        "date": "1808",
+        "place": "West Sandwick, Yell, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "15 Jun 1897",
+        "place": "Brough of Infield, Mossbank, Delting, SHI, SCT"
+      }
+    ],
+    "generation": 4
+  },
+  {
+    "ahnentafel": 22,
+    "name": "Simeon MANSON",
+    "pID": "I6469",
+    "events": [
+      {
+        "type": "born",
+        "date": "1775",
+        "place": "West Sandwick, Yell, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "24 May 1807",
+        "place": "Mid & South Yell, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Aft 1841",
+        "place": ""
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 23,
+    "name": "Janet Catherine JOHNSON",
+    "pID": "I6470",
+    "events": [
+      {
+        "type": "born",
+        "date": "21 Nov 1785",
+        "place": "West Sandwick, Yell, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "9 Apr 1879",
+        "place": "Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 46,
+    "name": "John JOHNSON",
+    "pID": "I6471",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1769",
+        "place": "Hivdigarth, North-a-Voe, Yell, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "1785",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 47,
+    "name": "Elizabeth HUGHSON",
+    "pID": "I17048",
+    "events": [
+      {
+        "type": "born",
+        "date": "1758",
+        "place": "Mid Yell, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Aft 1851",
+        "place": ""
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 94,
+    "name": "Magnus HUGHSON",
+    "pID": "I10220",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1736",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 95,
+    "name": "Janet STOVE",
+    "pID": "I10221",
+    "events": [
+      {
+        "type": "born",
+        "date": "21 Jul 1735",
+        "place": "Hamnavoe, South Yell, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 190,
+    "name": "Robert STOVE",
+    "pID": "I10222",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1715",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 3,
+    "name": "Margaret SUTHERLAND",
+    "pID": "I31813",
+    "events": [
+      {
+        "type": "born",
+        "date": "12 Aug 1867",
+        "place": "Vidlin, Lunnasting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "14 Jun 1948",
+        "place": "Brevik County Home, South Roadside, Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 2
+  },
+  {
+    "ahnentafel": 6,
+    "name": "Laurence SUTHERLAND",
+    "pID": "I31809",
+    "events": [
+      {
+        "type": "born",
+        "date": "19 May 1840",
+        "place": "Smogaburn, Lunnasting, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "27 Nov 1862",
+        "place": "Vidlin, Lunnasting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "5 Dec 1917",
+        "place": "4 Burgess Street, Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 3
+  },
+  {
+    "ahnentafel": 12,
+    "name": "Laurence SUTHERLAND",
+    "pID": "I31758",
+    "events": [
+      {
+        "type": "born",
+        "date": "1 Mar 1811",
+        "place": "Lunning, Lunnasting, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "28 Dec 1837",
+        "place": "Lunnasting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "7 Feb 1897",
+        "place": "Laxo, Lunnasting, SHI, SCT"
+      }
+    ],
+    "generation": 4
+  },
+  {
+    "ahnentafel": 24,
+    "name": "Laurence SUTHERLAND",
+    "pID": "I31751",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1770",
+        "place": ""
+      },
+      {
+        "type": "married",
+        "date": "Abt 1796",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 25,
+    "name": "Catherine ROBERTSON",
+    "pID": "I31752",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1775",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 13,
+    "name": "Elizabeth LAING",
+    "pID": "I31806",
+    "events": [
+      {
+        "type": "born",
+        "date": "1813",
+        "place": "Garth, Nesting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "26 Nov 1888",
+        "place": "Laxo, Lunnasting, SHI, SCT"
+      }
+    ],
+    "generation": 4
+  },
+  {
+    "ahnentafel": 26,
+    "name": "Thomas LAING",
+    "pID": "I92556",
+    "events": [
+      {
+        "type": "born",
+        "date": "1788",
+        "place": "Nesting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "27 May 1856",
+        "place": "Church Lane, Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 52,
+    "name": "Robert LAING",
+    "pID": "I29854",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1756",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 53,
+    "name": "Margaret POTTINGER",
+    "pID": "I29855",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1756",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 27,
+    "name": "Christina SHUARDSON",
+    "pID": "I90879",
+    "events": [
+      {
+        "type": "born",
+        "date": "1786",
+        "place": "Nesting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "11 Apr 1854",
+        "place": "Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 7,
+    "name": "Janet ANDERSON",
+    "pID": "I31810",
+    "events": [
+      {
+        "type": "born",
+        "date": "22 Feb 1843",
+        "place": "Skerries, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "25 Oct 1916",
+        "place": "Burgess Street, Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 3
+  },
+  {
+    "ahnentafel": 14,
+    "name": "John ANDERSON",
+    "pID": "I13385",
+    "events": [
+      {
+        "type": "born",
+        "date": "1816",
+        "place": "Skerries, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "5 Dec 1837",
+        "place": "Skerries, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "12 Aug 1842",
+        "place": "At sea, off Skerries, SHI, SCT"
+      }
+    ],
+    "generation": 4
+  },
+  {
+    "ahnentafel": 28,
+    "name": "Theodore ANDERSON",
+    "pID": "I12918",
+    "events": [
+      {
+        "type": "born",
+        "date": "1773",
+        "place": "Skerries, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "Abt 1806",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "Aft 1851",
+        "place": ""
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 56,
+    "name": "Laurence ANDERSON",
+    "pID": "I77065",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1751",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 29,
+    "name": "Catherine WILLIAMSON",
+    "pID": "I12919",
+    "events": [
+      {
+        "type": "born",
+        "date": "1783",
+        "place": "Lunnasting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "10 Feb 1867",
+        "place": "West Isle, Skerries, SHI, SCT"
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 58,
+    "name": "William WILLIAMSON",
+    "pID": "I34723",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1752",
+        "place": "Lunnasting, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": "Lunnasting, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 59,
+    "name": "Penelope IRVINE",
+    "pID": "I12921",
+    "events": [
+      {
+        "type": "born",
+        "date": "1762",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "10 Jul 1835",
+        "place": "Treawick, Lunnasting, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 15,
+    "name": "Elizabeth JOHNSON",
+    "pID": "I13386",
+    "events": [
+      {
+        "type": "born",
+        "date": "1816",
+        "place": "Skerries, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "3 Jul 1898",
+        "place": "Grunay, Skerries, SHI, SCT"
+      }
+    ],
+    "generation": 4
+  },
+  {
+    "ahnentafel": 30,
+    "name": "Andrew JOHNSON",
+    "pID": "I13616",
+    "events": [
+      {
+        "type": "born",
+        "date": "1779",
+        "place": "Skerries, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Aft 1851",
+        "place": ""
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 31,
+    "name": "Elizabeth MOAR",
+    "pID": "I13617",
+    "events": [
+      {
+        "type": "born",
+        "date": "1773",
+        "place": "Skerries, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "7 May 1866",
+        "place": "West Isle, Skerries, SHI, SCT"
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 62,
+    "name": "Thomas MOAR",
+    "pID": "I13618",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1756",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 63,
+    "name": "Margaret PATON",
+    "pID": "I13619",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1756",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 6
+  }
+]

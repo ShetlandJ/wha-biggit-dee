@@ -1620,6 +1620,117 @@
       "lat": 58.9816,
       "lng": -2.9604,
       "type": "town"
+    },
+    "Rousay": {
+      "lat": 59.1631,
+      "lng": -3.0466,
+      "type": "island"
+    },
+    "Graemsay": {
+      "lat": 58.9302,
+      "lng": -3.2877,
+      "type": "island"
+    },
+    "Egilsay": {
+      "lat": 59.1475,
+      "lng": -2.9269,
+      "type": "island"
+    },
+    "Westray": {
+      "lat": 59.2944,
+      "lng": -2.9595,
+      "type": "island"
+    },
+    "Veira": {
+      "lat": 59.1193,
+      "lng": -2.9702,
+      "type": "island"
+    },
+    "Shapinsay": {
+      "lat": 59.0525,
+      "lng": -2.8668,
+      "type": "island"
+    },
+    "Stromness": {
+      "lat": 58.9614,
+      "lng": -3.2994,
+      "type": "town"
+    },
+    "Holm": {
+      "lat": 58.9059,
+      "lng": -2.8834,
+      "type": "parish"
+    },
+    "Stenness": {
+      "lat": 58.986,
+      "lng": -3.2113,
+      "type": "parish"
+    },
+    "Birsay": {
+      "lat": 59.1295,
+      "lng": -3.3134,
+      "type": "parish"
+    },
+    "St. Ola": {
+      "lat": 58.9788,
+      "lng": -2.9846,
+      "type": "parish"
+    },
+    "Bower": {
+      "lat": 58.5073,
+      "lng": -3.3769,
+      "type": "parish"
+    },
+    "Halkirk": {
+      "lat": 58.5139,
+      "lng": -3.4953,
+      "type": "village"
+    },
+    "Dunnet": {
+      "lat": 58.6222,
+      "lng": -3.3434,
+      "type": "village"
+    },
+    "London": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "type": "city"
+    },
+    "Cardenden": {
+      "lat": 56.1411,
+      "lng": -3.261,
+      "type": "village"
+    },
+    "Banff": {
+      "lat": 57.6645,
+      "lng": -2.5218,
+      "type": "town"
+    },
+    "Olrig": {
+      "lat": 58.584,
+      "lng": -3.385,
+      "type": "parish"
+    },
+    "London, England": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "type": "city"
+    },
+    "Rousay and Egilsay": {
+      "lat": 59.1631,
+      "lng": -3.0466,
+      "type": "island"
+    },
+    "Aberdeen East": {
+      "lat": 57.1482,
+      "lng": -2.0928,
+      "type": "parish"
+    },
+    "ESS": {
+      "lat": 51.7705,
+      "lng": 0.4647,
+      "type": "county",
+      "name": "Essex"
     }
   }
 }
