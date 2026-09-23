@@ -1841,6 +1841,58 @@
       "lat": 56.3959,
       "lng": -3.4303,
       "type": "city"
+    },
+    "SUT": {
+      "lat": 58.2501,
+      "lng": -4.5001,
+      "type": "county",
+      "name": "Sutherland"
+    },
+    "RNF": {
+      "lat": 55.8333,
+      "lng": -4.5,
+      "type": "county",
+      "name": "Renfrewshire"
+    },
+    "Trantlebeg": {
+      "lat": 58.4531,
+      "lng": -3.893,
+      "type": "hamlet"
+    },
+    "Reay": {
+      "lat": 58.5586,
+      "lng": -3.776,
+      "type": "village"
+    },
+    "Cruden": {
+      "lat": 57.4164,
+      "lng": -1.8529,
+      "type": "parish"
+    },
+    "Ellon": {
+      "lat": 57.365,
+      "lng": -2.071,
+      "type": "town"
+    },
+    "Renfrew": {
+      "lat": 55.8776,
+      "lng": -4.3889,
+      "type": "town"
+    },
+    "Rogart": {
+      "lat": 57.9886,
+      "lng": -4.1583,
+      "type": "village"
+    },
+    "Grange, BAN, SCT": {
+      "lat": 57.5536,
+      "lng": -2.8621,
+      "type": "parish"
+    },
+    "Cruden Bay": {
+      "lat": 57.4164,
+      "lng": -1.8529,
+      "type": "village"
     }
   }
 }
