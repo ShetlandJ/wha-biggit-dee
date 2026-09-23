@@ -1366,6 +1366,73 @@
       "lat": 55.4586,
       "lng": -4.6292,
       "type": "town"
+    },
+    "Buckie": {
+      "lat": 57.6763,
+      "lng": -2.9649,
+      "type": "town"
+    },
+    "Rathven": {
+      "lat": 57.6777,
+      "lng": -2.9347,
+      "type": "parish"
+    },
+    "Pittulie": {
+      "lat": 57.6986,
+      "lng": -2.0701,
+      "type": "town"
+    },
+    "Rosehearty": {
+      "lat": 57.6968,
+      "lng": -2.1143,
+      "type": "town"
+    },
+    "Turriff": {
+      "lat": 57.5375,
+      "lng": -2.4641,
+      "type": "town"
+    },
+    "Portknockie": {
+      "lat": 57.7035,
+      "lng": -2.8581,
+      "type": "town"
+    },
+    "Glenrothes": {
+      "lat": 56.1962,
+      "lng": -3.1716,
+      "type": "town"
+    },
+    "Uig": {
+      "lat": 58.1892,
+      "lng": -7.0137,
+      "type": "parish"
+    },
+    "Selkirk": {
+      "lat": 55.5471,
+      "lng": -2.8415,
+      "type": "town"
+    },
+    "Pitsligo": {
+      "lat": 57.69,
+      "lng": -2.106,
+      "type": "parish"
+    },
+    "Lewick": {
+      "lat": 60.1551,
+      "lng": -1.145,
+      "type": "town"
+    },
+    "MOR": {
+      "lat": 57.4167,
+      "lng": -3.25,
+      "type": "county",
+      "name": "Moray"
+    },
+    "BOR": {
+      "lat": 55.5833,
+      "lng": -2.8333,
+      "type": "county",
+      "name": "Scottish Borders"
     }
   }
 }
