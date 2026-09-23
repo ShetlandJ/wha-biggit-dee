@@ -1438,6 +1438,31 @@
       "lat": 15.87,
       "lng": 100.9925,
       "type": "country"
+    },
+    "Newcastle-upon-Tyne": {
+      "lat": 54.9783,
+      "lng": -1.6178,
+      "type": "town"
+    },
+    "South Shields": {
+      "lat": 54.9987,
+      "lng": -1.4322,
+      "type": "town"
+    },
+    "Keith": {
+      "lat": 57.5427,
+      "lng": -2.9523,
+      "type": "town"
+    },
+    "Black Isle": {
+      "lat": 57.5882,
+      "lng": -4.2543,
+      "type": "parish"
+    },
+    "Wesidale": {
+      "lat": 60.2543,
+      "lng": -1.2935,
+      "type": "parish"
     }
   }
 }
