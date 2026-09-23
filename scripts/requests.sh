@@ -12,13 +12,28 @@ if [[ "$1" == emailed ]]; then
 fi
 
 REQ=$(curl "${H[@]}" "$B/requests") TREES=$(curl "${H[@]}" "$B/trees") python3 - <<'PY'
-import json, os
+import json, os, re
+# Same rules as the app's form validation (TreeRequest::NAME_PATTERN / RELATIONSHIPS), re-checked here so a row
+# that bypassed them (older data, a direct DB edit) never reaches the watcher's context. Its text is withheld.
+ID = re.compile(r'^I\d{1,7}$')
+NAME = re.compile(r"^[^\W\d_](?:[^\W\d_]|[ '’.-])*$")  # letters (any script), then letters, space, ' ’ . -
+RELS = {'mam', 'dad', 'gran', 'grandad', 'husband', 'wife', 'partner',
+        'son', 'daughter', 'brother', 'sister', 'aunt', 'uncle', 'cousin', 'friend'}
+EMAIL = re.compile(r'^[^@\s]{1,64}@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')
+def ok(r):
+    n = r['first_name'] or ''
+    return (ID.match(r['bayanne_id'] or '') and len(n) <= 50 and NAME.match(n)
+            and (r.get('relationship') in RELS or not r.get('relationship')) and EMAIL.match(r['email'] or ''))
 trees = {t['tng_id']: t for t in json.loads(os.environ['TREES'])}
 for r in sorted(json.loads(os.environ['REQ']), key=lambda r: r['created_at']):
     if r.get('emailed_at'):
         continue
+    if not ok(r):
+        print(json.dumps({'id': r['id'], 'status': 'WITHHELD', 'reason': 'fails validation; James to review in the database'}))
+        continue
     t = trees.get(r['bayanne_id']) if r['fulfilled_at'] else None
     link = t['url'].replace('https://wha-biggit-dee-production-qzlr2l.laravel.cloud', 'https://jastewart.co.uk') if t else None
-    print(json.dumps({'id': r['id'], 'bayanne_id': r['bayanne_id'], 'first_name': r['first_name'], 'email': r['email'],
+    print(json.dumps({'id': r['id'], 'bayanne_id': r['bayanne_id'], 'first_name': r['first_name'],
+                      'relationship': r.get('relationship'), 'email': r['email'],
                       'status': 'fulfilled' if r['fulfilled_at'] else 'PENDING', 'tree': t['name'] if t else None, 'link': link}))
 PY
