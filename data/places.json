@@ -845,6 +845,41 @@
       "lng": 146.9163,
       "type": "city"
     },
+    "Lochbroom": {
+      "lat": 57.8958,
+      "lng": -5.1602,
+      "type": "parish"
+    },
+    "Edderton": {
+      "lat": 57.8324,
+      "lng": -4.1709,
+      "type": "village"
+    },
+    "Bullers": {
+      "lat": 57.4327,
+      "lng": -1.8218,
+      "type": "hamlet"
+    },
+    "Cairnbulg": {
+      "lat": 57.6771,
+      "lng": -1.9337,
+      "type": "village"
+    },
+    "Thurso": {
+      "lat": 58.5947,
+      "lng": -3.5206,
+      "type": "town"
+    },
+    "Scarfskerry": {
+      "lat": 58.6488,
+      "lng": -3.2695,
+      "type": "village"
+    },
+    "North Sea": {
+      "lat": 60.3,
+      "lng": -2.5,
+      "type": "sea"
+    },
     "St. Gemmys, COR, ENG": {
       "lat": 50.7442,
       "lng": -4.625,
