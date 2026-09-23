@@ -1066,6 +1066,306 @@
       "lat": 56.5379628,
       "lng": -2.8149155,
       "type": "settlement"
+    },
+    "Inverness": {
+      "lat": 57.479,
+      "lng": -4.2257,
+      "type": "city"
+    },
+    "Gardenstown": {
+      "lat": 57.6716,
+      "lng": -2.3385,
+      "type": "settlement"
+    },
+    "Gamrie": {
+      "lat": 57.6716,
+      "lng": -2.3385,
+      "type": "parish"
+    },
+    "Orphir": {
+      "lat": 58.9362,
+      "lng": -3.1451,
+      "type": "parish"
+    },
+    "Rathen": {
+      "lat": 57.6369,
+      "lng": -2.0013,
+      "type": "parish"
+    },
+    "Dalry": {
+      "lat": 55.706,
+      "lng": -4.7111,
+      "type": "town"
+    },
+    "Glasgow": {
+      "lat": 55.8612,
+      "lng": -4.2502,
+      "type": "city"
+    },
+    "Pennan": {
+      "lat": 57.6788,
+      "lng": -2.2605,
+      "type": "settlement"
+    },
+    "South Ronaldsay": {
+      "lat": 58.8258,
+      "lng": -2.9585,
+      "type": "island"
+    },
+    "Inverkeithing": {
+      "lat": 56.0309,
+      "lng": -3.3977,
+      "type": "town"
+    },
+    "Melbourne": {
+      "lat": -37.8142,
+      "lng": 144.9632,
+      "type": "city"
+    },
+    "Mount Lawley": {
+      "lat": -31.9282,
+      "lng": 115.8768,
+      "type": "suburb"
+    },
+    "Perth, WA": {
+      "lat": -31.9559,
+      "lng": 115.8606,
+      "type": "city"
+    },
+    "Subiaco": {
+      "lat": -31.9463,
+      "lng": 115.824,
+      "type": "suburb"
+    },
+    "Dunfermline": {
+      "lat": 56.0714,
+      "lng": -3.4616,
+      "type": "town"
+    },
+    "Partick": {
+      "lat": 55.8715,
+      "lng": -4.3087,
+      "type": "suburb"
+    },
+    "Cambuslang": {
+      "lat": 55.8192,
+      "lng": -4.1686,
+      "type": "town"
+    },
+    "Pollockshaws": {
+      "lat": 55.8253,
+      "lng": -4.2943,
+      "type": "suburb"
+    },
+    "Muckhart": {
+      "lat": 56.1888,
+      "lng": -3.6118,
+      "type": "parish"
+    },
+    "Monkwearmouth": {
+      "lat": 54.9159,
+      "lng": -1.3729,
+      "type": "suburb"
+    },
+    "Sleaford": {
+      "lat": 52.9997,
+      "lng": -0.4096,
+      "type": "town"
+    },
+    "Fencourt, Cambridge": {
+      "lat": -37.8918,
+      "lng": 175.4691,
+      "type": "town"
+    },
+    "Watten": {
+      "lat": 58.4715,
+      "lng": -3.3016,
+      "type": "parish"
+    },
+    "Ulbster": {
+      "lat": 58.3577,
+      "lng": -3.1526,
+      "type": "settlement"
+    },
+    "Haster, Wick": {
+      "lat": 58.4437,
+      "lng": -3.1562,
+      "type": "settlement"
+    },
+    "Wick": {
+      "lat": 58.4426,
+      "lng": -3.0916,
+      "type": "town"
+    },
+    "Inverallochy": {
+      "lat": 57.6748,
+      "lng": -1.9294,
+      "type": "settlement"
+    },
+    "Latheron": {
+      "lat": 58.283,
+      "lng": -3.3678,
+      "type": "parish"
+    },
+    "Marnoch": {
+      "lat": 57.5621,
+      "lng": -2.622,
+      "type": "parish"
+    },
+    "Old Deer": {
+      "lat": 57.5195,
+      "lng": -2.039,
+      "type": "parish"
+    },
+    "Peterhead": {
+      "lat": 57.5053,
+      "lng": -1.7813,
+      "type": "town"
+    },
+    "Lesmahagow": {
+      "lat": 55.6392,
+      "lng": -3.8865,
+      "type": "town"
+    },
+    "Foulden": {
+      "lat": 55.7956,
+      "lng": -2.1105,
+      "type": "settlement"
+    },
+    "Foster": {
+      "lat": -38.651,
+      "lng": 146.2019,
+      "type": "settlement"
+    },
+    "Mexico": {
+      "lat": 23.6585,
+      "lng": -102.0077,
+      "type": "country"
+    },
+    "India": {
+      "lat": 22.3511,
+      "lng": 78.6677,
+      "type": "country"
+    },
+    "Leith": {
+      "lat": 55.9725,
+      "lng": -3.1709,
+      "type": "suburb"
+    },
+    "South Leith": {
+      "lat": 55.9725,
+      "lng": -3.1709,
+      "type": "suburb"
+    },
+    "Clestrain, Orphir": {
+      "lat": 58.9353,
+      "lng": -3.2566,
+      "type": "settlement"
+    },
+    "Calgary": {
+      "lat": 51.0456,
+      "lng": -114.0575,
+      "type": "city"
+    },
+    "South Tyneside Hospital": {
+      "lat": 54.9987,
+      "lng": -1.4322,
+      "type": "settlement"
+    },
+    "Nelson": {
+      "lat": -41.2711,
+      "lng": 173.2837,
+      "type": "town"
+    },
+    "North Delting": {
+      "lat": 60.4491,
+      "lng": -1.1986,
+      "type": "parish"
+    },
+    "INV": {
+      "lat": 57.0833,
+      "lng": -4.6667,
+      "type": "county"
+    },
+    "BAN": {
+      "lat": 57.5,
+      "lng": -3.0833,
+      "type": "county"
+    },
+    "AYR": {
+      "lat": 55.5,
+      "lng": -4.5,
+      "type": "county"
+    },
+    "PER": {
+      "lat": 56.5,
+      "lng": -3.75,
+      "type": "county"
+    },
+    "CAI": {
+      "lat": 58.4043,
+      "lng": -3.434,
+      "type": "county"
+    },
+    "LIN": {
+      "lat": 53.1823,
+      "lng": -0.2031,
+      "type": "county"
+    },
+    "SSX": {
+      "lat": 51.0,
+      "lng": -0.4167,
+      "type": "county"
+    },
+    "ROC": {
+      "lat": 57.5955,
+      "lng": -4.4284,
+      "type": "county"
+    },
+    "VIC": {
+      "lat": -36.5986,
+      "lng": 144.678,
+      "type": "state"
+    },
+    "CAN": {
+      "lat": 61.0667,
+      "lng": -107.9917,
+      "type": "country"
+    },
+    "Aberdour": {
+      "lat": 57.6655,
+      "lng": -2.1884,
+      "type": "parish"
+    },
+    "Pennan, Aberdour": {
+      "lat": 57.6788,
+      "lng": -2.2605,
+      "type": "settlement"
+    },
+    "Inverallochy, Rathen": {
+      "lat": 57.6748,
+      "lng": -1.9294,
+      "type": "settlement"
+    },
+    "Ulbster, Wick": {
+      "lat": 58.3577,
+      "lng": -3.1526,
+      "type": "settlement"
+    },
+    "Manse of Fetlar": {
+      "lat": 60.5974,
+      "lng": -0.8491,
+      "type": "parish"
+    },
+    "ABD": {
+      "lat": 57.2,
+      "lng": -2.6,
+      "type": "county"
+    },
+    "Ayr": {
+      "lat": 55.4586,
+      "lng": -4.6292,
+      "type": "town"
     }
   }
 }
