@@ -1,0 +1,977 @@
+[
+  {
+    "ahnentafel": 1,
+    "name": "Laynou Margaret SMITH",
+    "pID": "I273496",
+    "events": [
+      {
+        "type": "born",
+        "date": "20 Nov 1976",
+        "place": "Gilbert Bain Hospital, Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 1
+  },
+  {
+    "ahnentafel": 2,
+    "name": "William Angus SMITH",
+    "pID": "I301311",
+    "events": [
+      {
+        "type": "born",
+        "date": "6 Nov 1936",
+        "place": "Rockmount, Hamnavoe, Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "16 Aug 2012",
+        "place": "Bayview, Hamnavoe, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 2
+  },
+  {
+    "ahnentafel": 5,
+    "name": "Jessie Barbara SMITH",
+    "pID": "I88313",
+    "events": [
+      {
+        "type": "born",
+        "date": "12 Jan 1909",
+        "place": "Rockmount, Hamnavoe, Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "10 Feb 1962",
+        "place": "Bayview, Hamnavoe, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 3
+  },
+  {
+    "ahnentafel": 10,
+    "name": "Robert Adam SMITH",
+    "pID": "I88308",
+    "events": [
+      {
+        "type": "born",
+        "date": "1876",
+        "place": "Gussigarth, Burra, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "27 Jan 1898",
+        "place": "25 Fox Lane, Lerwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "4 Jun 1952",
+        "place": "Bayview, Hamnavoe, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 4
+  },
+  {
+    "ahnentafel": 20,
+    "name": "Robert SMITH",
+    "pID": "I56518",
+    "events": [
+      {
+        "type": "born",
+        "date": "8 Feb 1847",
+        "place": "Duncansclate, Burra, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "25 Jan 1872",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "16 Oct 1936",
+        "place": "Gussigarth, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 40,
+    "name": "Adam SMITH",
+    "pID": "I42402",
+    "events": [
+      {
+        "type": "born",
+        "date": "1808",
+        "place": "Sandwick, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "26 Nov 1828",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "26 Sep 1868",
+        "place": "Duncansclate, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 80,
+    "name": "John SMITH",
+    "pID": "I42404",
+    "events": [
+      {
+        "type": "born",
+        "date": "1780",
+        "place": "Sandwick, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "10 Nov 1807",
+        "place": "Sandwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "19 Oct 1865",
+        "place": "Duncansclate, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 160,
+    "name": "James SMITH",
+    "pID": "I42413",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1746",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "17 Nov 1768",
+        "place": "Sandwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 161,
+    "name": "Catherine ADAMSON",
+    "pID": "I42414",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1747",
+        "place": "Sandwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 81,
+    "name": "Margaret Mary INKSTER",
+    "pID": "I42405",
+    "events": [
+      {
+        "type": "born",
+        "date": "1782",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "10 Apr 1867",
+        "place": "Duncansclate, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 162,
+    "name": "Laurence INKSTER",
+    "pID": "I45968",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1755",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "11 Dec 1777",
+        "place": "Tingwall, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "6 May 1831",
+        "place": "Norbister, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 163,
+    "name": "Susannah SMITH",
+    "pID": "I45984",
+    "events": [
+      {
+        "type": "born",
+        "date": "1757",
+        "place": "Norbister, Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "19 Jan 1835",
+        "place": "Norbister, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 41,
+    "name": "Jane SINCLAIR",
+    "pID": "I42403",
+    "events": [
+      {
+        "type": "born",
+        "date": "1808",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "23 May 1897",
+        "place": "Newtown, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 82,
+    "name": "Laurence SINCLAIR",
+    "pID": "I55443",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1775",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Bef 1851",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 83,
+    "name": "Georgina SLATER",
+    "pID": "I42556",
+    "events": [
+      {
+        "type": "born",
+        "date": "1778",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "29 Oct 1866",
+        "place": "Houss, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 166,
+    "name": "George SLATER",
+    "pID": "I55442",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1750",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 167,
+    "name": "Jane SINCLAIR",
+    "pID": "I42555",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1750",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 21,
+    "name": "Jessie Nicol POTTINGER",
+    "pID": "I56517",
+    "events": [
+      {
+        "type": "born",
+        "date": "15 Aug 1846",
+        "place": "Utnrabrake, Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "6 Apr 1880",
+        "place": "Duncansclate, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 42,
+    "name": "William POTTINGER",
+    "pID": "I56505",
+    "events": [
+      {
+        "type": "born",
+        "date": "1810",
+        "place": "Setter, Burra, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "6 Dec 1832",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "24 Jul 1887",
+        "place": "Sand, Gulberwick, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 84,
+    "name": "John POTTINGER",
+    "pID": "I72969",
+    "events": [
+      {
+        "type": "born",
+        "date": "1762",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 168,
+    "name": "William POTTINGER",
+    "pID": "I179596",
+    "events": [
+      {
+        "type": "born",
+        "date": "1734",
+        "place": "Houlland, Tingwall, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 169,
+    "name": "Margaret HENRY",
+    "pID": "I179597",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1740",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 85,
+    "name": "Jane SINCLAIR",
+    "pID": "I72970",
+    "events": [
+      {
+        "type": "born",
+        "date": "1777",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "Aft 1841",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 43,
+    "name": "Grace HALCROW",
+    "pID": "I56506",
+    "events": [
+      {
+        "type": "born",
+        "date": "1812",
+        "place": "Leebitton, Sandwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "21 Jan 1897",
+        "place": "Sound Road Cottages, Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 86,
+    "name": "James HALCROW",
+    "pID": "I86802",
+    "events": [
+      {
+        "type": "born",
+        "date": "1775",
+        "place": "Stove, Sandwick, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "28 Nov 1799",
+        "place": "Sandwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Aft 1841",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 87,
+    "name": "Margaret HALCROW",
+    "pID": "I222992",
+    "events": [
+      {
+        "type": "born",
+        "date": "1779",
+        "place": "Stove, Sandwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Aft 1841",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 11,
+    "name": "Ann DUNCAN",
+    "pID": "I42505",
+    "events": [
+      {
+        "type": "born",
+        "date": "25 Nov 1877",
+        "place": "Setter, Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "10 Sep 1941",
+        "place": "Sanatorium, Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 4
+  },
+  {
+    "ahnentafel": 22,
+    "name": "Laurence DUNCAN",
+    "pID": "I35181",
+    "events": [
+      {
+        "type": "born",
+        "date": "1 Dec 1841",
+        "place": "Mail, Burra, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "2 Sep 1862",
+        "place": "Meal, Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "11 Feb 1914",
+        "place": "Roadside, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 44,
+    "name": "Robert DUNCAN",
+    "pID": "I42420",
+    "events": [
+      {
+        "type": "born",
+        "date": "14 Nov 1816",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "2 Jun 1835",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "8 Feb 1874",
+        "place": "Setter, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 88,
+    "name": "Erasmus DUNCAN",
+    "pID": "I42416",
+    "events": [
+      {
+        "type": "born",
+        "date": "1785",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "Bef 1811",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "21 Jul 1861",
+        "place": "Norbister, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 176,
+    "name": "Erick DUNCAN",
+    "pID": "I42417",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1760",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 177,
+    "name": "Catherine LEASK",
+    "pID": "I42418",
+    "events": [
+      {
+        "type": "born",
+        "date": "Bef 1761",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 89,
+    "name": "Helen DAVIDSON",
+    "pID": "I73391",
+    "events": [
+      {
+        "type": "born",
+        "date": "12 Nov 1781",
+        "place": "North Garth, Tingwall, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 178,
+    "name": "John DAVIDSON",
+    "pID": "I73387",
+    "events": [
+      {
+        "type": "born",
+        "date": "1751",
+        "place": "North Garth, Tingwall, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "20 Nov 1771",
+        "place": "Tingwall, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 179,
+    "name": "Agnes GEORGESON",
+    "pID": "I73372",
+    "events": [
+      {
+        "type": "born",
+        "date": "Aft 1748",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 45,
+    "name": "Cecilia SMITH",
+    "pID": "I42419",
+    "events": [
+      {
+        "type": "born",
+        "date": "1812",
+        "place": "Cunningsburgh, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "23 Mar 1880",
+        "place": "Setter, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 90,
+    "name": "John SMITH",
+    "pID": "I42404",
+    "events": [
+      {
+        "type": "born",
+        "date": "1780",
+        "place": "Sandwick, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "10 Nov 1807",
+        "place": "Sandwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "19 Oct 1865",
+        "place": "Duncansclate, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 180,
+    "name": "James SMITH",
+    "pID": "I42413",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1746",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "17 Nov 1768",
+        "place": "Sandwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 181,
+    "name": "Catherine ADAMSON",
+    "pID": "I42414",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1747",
+        "place": "Sandwick, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 91,
+    "name": "Margaret Mary INKSTER",
+    "pID": "I42405",
+    "events": [
+      {
+        "type": "born",
+        "date": "1782",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "10 Apr 1867",
+        "place": "Duncansclate, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 182,
+    "name": "Laurence INKSTER",
+    "pID": "I45968",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1755",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "11 Dec 1777",
+        "place": "Tingwall, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "6 May 1831",
+        "place": "Norbister, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 183,
+    "name": "Susannah SMITH",
+    "pID": "I45984",
+    "events": [
+      {
+        "type": "born",
+        "date": "1757",
+        "place": "Norbister, Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "19 Jan 1835",
+        "place": "Norbister, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 8
+  },
+  {
+    "ahnentafel": 23,
+    "name": "Margaret LAURENSON",
+    "pID": "I35182",
+    "events": [
+      {
+        "type": "born",
+        "date": "1841",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "9 Jan 1919",
+        "place": "Burra, SHI, SCT"
+      }
+    ],
+    "generation": 5
+  },
+  {
+    "ahnentafel": 46,
+    "name": "James LAURENSON",
+    "pID": "I46479",
+    "events": [
+      {
+        "type": "born",
+        "date": "1788",
+        "place": "Tingwall, SHI, SCT"
+      },
+      {
+        "type": "married",
+        "date": "17 May 1836",
+        "place": ""
+      },
+      {
+        "type": "died",
+        "date": "23 Aug 1882",
+        "place": "East Hogaland, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 92,
+    "name": "Laurence JOHNSON",
+    "pID": "I55846",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1765",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 93,
+    "name": "Janet MALCOLMSON",
+    "pID": "I55474",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1765",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "UNKNOWN",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 47,
+    "name": "Margaret SINCLAIR",
+    "pID": "I52992",
+    "events": [
+      {
+        "type": "born",
+        "date": "1810",
+        "place": "Burra, SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "9 Dec 1892",
+        "place": "East Hogaland, Burra, SHI, SCT"
+      }
+    ],
+    "generation": 6
+  },
+  {
+    "ahnentafel": 94,
+    "name": "Robert SINCLAIR",
+    "pID": "I72924",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1770",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Bef 1841",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 95,
+    "name": "Helen SINCLAIR",
+    "pID": "I72925",
+    "events": [
+      {
+        "type": "born",
+        "date": "1770",
+        "place": "SHI, SCT"
+      },
+      {
+        "type": "died",
+        "date": "Aft 1841",
+        "place": ""
+      }
+    ],
+    "generation": 7
+  },
+  {
+    "ahnentafel": 3,
+    "name": "Buppa TUKTA",
+    "pID": "I318327",
+    "events": [
+      {
+        "type": "born",
+        "date": "Abt 1955",
+        "place": "Thailand"
+      },
+      {
+        "type": "died",
+        "date": "12 Sep 2019",
+        "place": "Lerwick, SHI, SCT"
+      }
+    ],
+    "generation": 2
+  }
+]

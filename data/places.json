@@ -1433,6 +1433,11 @@
       "lng": -2.8333,
       "type": "county",
       "name": "Scottish Borders"
+    },
+    "Thailand": {
+      "lat": 15.87,
+      "lng": 100.9925,
+      "type": "country"
     }
   }
 }
