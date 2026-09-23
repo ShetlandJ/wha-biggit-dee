@@ -845,6 +845,16 @@
       "lng": 146.9163,
       "type": "city"
     },
+    "St. Gemmys, COR, ENG": {
+      "lat": 50.7442,
+      "lng": -4.625,
+      "type": "parish"
+    },
+    "St. Andrews, OKI, SCT": {
+      "lat": 58.952,
+      "lng": -2.8677,
+      "type": "parish"
+    },
     "Leigh, ESS, ENG": {
       "lat": 51.5416,
       "lng": 0.6455,
