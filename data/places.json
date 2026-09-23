@@ -1771,6 +1771,11 @@
       "lat": 60.3,
       "lng": -2.5,
       "type": "sea"
+    },
+    "Uyeasound Unst": {
+      "lat": 60.691,
+      "lng": -0.9111,
+      "type": "settlement"
     }
   }
 }
