@@ -1539,6 +1539,57 @@
       "lat": -30.09,
       "lng": 145.938,
       "type": "town"
+    },
+    "RFW": {
+      "lat": 55.8333,
+      "lng": -4.5,
+      "type": "county",
+      "name": "Renfrewshire"
+    },
+    "Neilston": {
+      "lat": 55.7828,
+      "lng": -4.4272,
+      "type": "village"
+    },
+    "Barrhead": {
+      "lat": 55.8011,
+      "lng": -4.39,
+      "type": "town"
+    },
+    "Forteviot": {
+      "lat": 56.3406,
+      "lng": -3.5355,
+      "type": "village"
+    },
+    "Methlick": {
+      "lat": 57.4255,
+      "lng": -2.2397,
+      "type": "village"
+    },
+    "St. Fergus": {
+      "lat": 57.5599,
+      "lng": -1.8424,
+      "type": "village"
+    },
+    "Ireland": {
+      "lat": 52.8652,
+      "lng": -7.9795,
+      "type": "country"
+    },
+    "Mayo, Ireland": {
+      "lat": 53.9087,
+      "lng": -9.2981,
+      "type": "county"
+    },
+    "Galway, Ireland": {
+      "lat": 53.2744,
+      "lng": -9.0491,
+      "type": "city"
+    },
+    "Tapanui": {
+      "lat": -45.9425,
+      "lng": 169.2619,
+      "type": "town"
     }
   }
 }
