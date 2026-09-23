@@ -24,6 +24,22 @@ def ok(r):
     n = r['first_name'] or ''
     return (ID.match(r['bayanne_id'] or '') and len(n) <= 50 and NAME.match(n)
             and (r.get('relationship') in RELS or not r.get('relationship')) and EMAIL.match(r['email'] or ''))
+def root_living(bayanne_id):
+    # Mirrors Tree::presumedLiving in the app: no death event, and the earliest dated event within 110 years.
+    # A living root's name came from Bayanne, not from the requester, so it's never put in an email.
+    # No local file to check → assume living.
+    import datetime, pathlib
+    f = pathlib.Path(os.path.expanduser(f'~/projects/fan_chart/data/ancestors_{bayanne_id}.json'))
+    if not f.exists():
+        return True
+    root = next((p for p in json.loads(f.read_text()) if p['ahnentafel'] == 1), None)
+    if not root:
+        return True
+    events = root.get('events') or []
+    if any(e['type'] == 'died' for e in events):
+        return False
+    years = [int(m.group()) for e in events if (m := re.search(r'\d{4}', e.get('date') or ''))]
+    return bool(years) and min(years) >= datetime.date.today().year - 110
 trees = {t['tng_id']: t for t in json.loads(os.environ['TREES'])}
 for r in sorted(json.loads(os.environ['REQ']), key=lambda r: r['created_at']):
     if r.get('emailed_at'):
@@ -33,7 +49,9 @@ for r in sorted(json.loads(os.environ['REQ']), key=lambda r: r['created_at']):
         continue
     t = trees.get(r['bayanne_id']) if r['fulfilled_at'] else None
     link = t['url'].replace('https://wha-biggit-dee-production-qzlr2l.laravel.cloud', 'https://jastewart.co.uk') if t else None
+    living = root_living(r['bayanne_id'])
     print(json.dumps({'id': r['id'], 'bayanne_id': r['bayanne_id'], 'first_name': r['first_name'],
                       'relationship': r.get('relationship'), 'email': r['email'],
-                      'status': 'fulfilled' if r['fulfilled_at'] else 'PENDING', 'tree': t['name'] if t else None, 'link': link}))
+                      'status': 'fulfilled' if r['fulfilled_at'] else 'PENDING',
+                      'tree': None if living else (t['name'] if t else None), 'root_living': living, 'link': link}))
 PY
