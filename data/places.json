@@ -1463,6 +1463,11 @@
       "lat": 60.2543,
       "lng": -1.2935,
       "type": "parish"
+    },
+    "Cathcart": {
+      "lat": 55.8178,
+      "lng": -4.2604,
+      "type": "village"
     }
   }
 }
