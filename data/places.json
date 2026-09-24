@@ -2028,6 +2028,11 @@
       "lat": 60.4208,
       "lng": -0.7703,
       "type": "settlement"
+    },
+    "Wales": {
+      "lat": 52.3306,
+      "lng": -3.7669,
+      "type": "country"
     }
   }
 }
