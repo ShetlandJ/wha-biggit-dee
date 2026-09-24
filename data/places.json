@@ -1960,6 +1960,64 @@
       "lng": -1.8904,
       "type": "county",
       "name": "West Midlands"
+    },
+    "Manchester": {
+      "lat": 53.4808,
+      "lng": -2.2426,
+      "type": "city"
+    },
+    "Barking": {
+      "lat": 51.5362,
+      "lng": 0.0813,
+      "type": "town"
+    },
+    "Chorlton-on-Medlock": {
+      "lat": 53.4654,
+      "lng": -2.2273,
+      "type": "settlement"
+    },
+    "Westminster": {
+      "lat": 51.4975,
+      "lng": -0.1357,
+      "type": "settlement"
+    },
+    "Hulme, Manchester": {
+      "lat": 53.466,
+      "lng": -2.2482,
+      "type": "settlement"
+    },
+    "Hattersley, Hyde": {
+      "lat": 53.4458,
+      "lng": -2.0336,
+      "type": "settlement"
+    },
+    "Ilford": {
+      "lat": 51.5583,
+      "lng": 0.0712,
+      "type": "town"
+    },
+    "Weymouth": {
+      "lat": 50.6144,
+      "lng": -2.4576,
+      "type": "town"
+    },
+    "LND": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "type": "county",
+      "name": "London"
+    },
+    "CHS": {
+      "lat": 53.1934,
+      "lng": -2.523,
+      "type": "county",
+      "name": "Cheshire"
+    },
+    "DOR": {
+      "lat": 50.7488,
+      "lng": -2.3445,
+      "type": "county",
+      "name": "Dorset"
     }
   }
 }
