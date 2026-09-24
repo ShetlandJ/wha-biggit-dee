@@ -2018,6 +2018,16 @@
       "lng": -2.3445,
       "type": "county",
       "name": "Dorset"
+    },
+    "Out Skerries": {
+      "lat": 60.4208,
+      "lng": -0.7694,
+      "type": "parish"
+    },
+    "West Isle, Out Skerries": {
+      "lat": 60.4208,
+      "lng": -0.7703,
+      "type": "settlement"
     }
   }
 }
