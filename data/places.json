@@ -2033,6 +2033,106 @@
       "lat": 52.3306,
       "lng": -3.7669,
       "type": "country"
+    },
+    "Stromfirth, Weisdale": {
+      "lat": 60.2429,
+      "lng": -1.2671,
+      "type": "settlement"
+    },
+    "Voe, Delting": {
+      "lat": 60.3501,
+      "lng": -1.2669,
+      "type": "settlement"
+    },
+    "Brae, Delting": {
+      "lat": 60.3936,
+      "lng": -1.3506,
+      "type": "settlement"
+    },
+    "Voxter, Delting": {
+      "lat": 60.4112,
+      "lng": -1.3269,
+      "type": "settlement"
+    },
+    "Clousta, Aithsting": {
+      "lat": 60.298,
+      "lng": -1.4368,
+      "type": "settlement"
+    },
+    "West Burrafirth, Aithsting": {
+      "lat": 60.2921,
+      "lng": -1.5363,
+      "type": "settlement"
+    },
+    "Papa Little, Aithsting": {
+      "lat": 60.332,
+      "lng": -1.39,
+      "type": "island"
+    },
+    "Gonfirth, Aithsting": {
+      "lat": 60.3342,
+      "lng": -1.3353,
+      "type": "settlement"
+    },
+    "Hubensetter, Delting": {
+      "lat": 60.3501,
+      "lng": -1.2669,
+      "type": "settlement"
+    },
+    "Millburn, Delting": {
+      "lat": 60.3501,
+      "lng": -1.2669,
+      "type": "settlement"
+    },
+    "Olnafirth, Delting": {
+      "lat": 60.3545,
+      "lng": -1.268,
+      "type": "settlement"
+    },
+    "Olnafirth, Voe, Delting": {
+      "lat": 60.3545,
+      "lng": -1.268,
+      "type": "settlement"
+    },
+    "Clubb Voe, Delting": {
+      "lat": 60.3501,
+      "lng": -1.2669,
+      "type": "settlement"
+    },
+    "Tagon, Delting": {
+      "lat": 60.3557,
+      "lng": -1.2626,
+      "type": "settlement"
+    },
+    "Futabrough, Walls": {
+      "lat": 60.2266,
+      "lng": -1.6478,
+      "type": "settlement"
+    },
+    "Queensetter, Aithsting": {
+      "lat": 60.3232,
+      "lng": -1.3495,
+      "type": "settlement"
+    },
+    "Wattsness, Walls": {
+      "lat": 60.2396,
+      "lng": -1.6851,
+      "type": "settlement"
+    },
+    "At sea, off Vementry, Aithsting": {
+      "lat": 60.3261,
+      "lng": -1.457,
+      "type": "sea"
+    },
+    "Gilbert Bain Hospital, Lerwick": {
+      "lat": 60.1511,
+      "lng": -1.1558,
+      "type": "settlement"
+    },
+    "Subiaco, Perth, WA": {
+      "lat": -31.9463,
+      "lng": 115.824,
+      "type": "settlement"
     }
   }
 }
