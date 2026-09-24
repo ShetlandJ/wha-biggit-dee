@@ -1913,6 +1913,26 @@
       "lat": 57.9737,
       "lng": -3.9756,
       "type": "village"
+    },
+    "Sanday, OKI, SCT": {
+      "lat": 59.2484,
+      "lng": -2.5824,
+      "type": "island"
+    },
+    "Christchurch, Canterbury": {
+      "lat": -43.531,
+      "lng": 172.6364,
+      "type": "city"
+    },
+    "Govan": {
+      "lat": 55.8608,
+      "lng": -4.3146,
+      "type": "suburb"
+    },
+    "Greenock": {
+      "lat": 55.9473,
+      "lng": -4.7565,
+      "type": "town"
     }
   }
 }
