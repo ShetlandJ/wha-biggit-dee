@@ -1933,6 +1933,27 @@
       "lat": 55.9473,
       "lng": -4.7565,
       "type": "town"
+    },
+    "Earlston": {
+      "lat": 55.6382,
+      "lng": -2.6769,
+      "type": "village"
+    },
+    "Bonhill": {
+      "lat": 55.9816,
+      "lng": -4.5733,
+      "type": "town"
+    },
+    "Cardross": {
+      "lat": 55.9602,
+      "lng": -4.653,
+      "type": "village"
+    },
+    "DNB": {
+      "lat": 55.9432,
+      "lng": -4.5708,
+      "type": "county",
+      "name": "Dunbartonshire"
     }
   }
 }
