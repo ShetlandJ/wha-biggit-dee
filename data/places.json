@@ -1954,6 +1954,12 @@
       "lng": -4.5708,
       "type": "county",
       "name": "Dunbartonshire"
+    },
+    "WMI": {
+      "lat": 52.4862,
+      "lng": -1.8904,
+      "type": "county",
+      "name": "West Midlands"
     }
   }
 }
