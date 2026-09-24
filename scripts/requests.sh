@@ -2,6 +2,8 @@
 # Landing-page requests not yet emailed, one JSON object per line, oldest first.
 #   scripts/requests.sh               list un-emailed requests (with tree name + share link)
 #   scripts/requests.sh emailed <id>  mark request <id> (the "id" field, not the Bayanne ID) as emailed
+#   scripts/requests.sh send <id> [--to <addr>]  email request <id> its map link, then mark it emailed
+#                                     (--to: test send to another address, marks nothing)
 # Reads PUSH_URL / PUSH_TOKEN from the app's .env.
 set -e
 eval "$(grep -E '^PUSH_(URL|TOKEN)=' ~/projects/wha-biggit-dee-app/.env | sed 's/^/export /')"
@@ -9,6 +11,20 @@ B="${PUSH_URL%/}/api/push"; H=(-sf -H "Authorization: Bearer $PUSH_TOKEN" -H "Ac
 
 if [[ "$1" == emailed ]]; then
   curl "${H[@]}" -X PATCH "$B/requests/$2/emailed"; echo; exit
+fi
+
+if [[ "$1" == send ]]; then
+  # Email request <id> its link over SMTP via the app, then mark it emailed. Uses this script's own listing,
+  # so the same validation and living-root rule apply. --to <addr> sends a test copy there and marks nothing.
+  row=$("$0" | python3 -c "import json,sys; print(next((l for l in sys.stdin if json.loads(l)['id']==int(sys.argv[1])),''),end='')" "$2")
+  [[ -n "$row" ]] || { echo "request $2 not found among un-emailed requests"; exit 1; }
+  f() { python3 -c "import json,sys; v=json.loads(sys.argv[1]).get(sys.argv[2]); print('' if v is None else v)" "$row" "$1"; }
+  [[ "$(f status)" == fulfilled && -n "$(f link)" ]] || { echo "request $2 isn't fulfilled yet"; exit 1; }
+  to=$(f email); [[ "$3" == --to && -n "$4" ]] && to=$4
+  (cd ~/projects/wha-biggit-dee-app && php artisan tree:mail-ready --to="$to" --first-name="$(f first_name)" \
+    --relationship="$(f relationship)" --tree="$(f tree)" --link="$(f link)")
+  [[ "$3" == --to ]] || "$0" emailed "$2"
+  exit
 fi
 
 REQ=$(curl "${H[@]}" "$B/requests") TREES=$(curl "${H[@]}" "$B/trees") python3 - <<'PY'
