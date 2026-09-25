@@ -2133,6 +2133,26 @@
       "lat": -31.9463,
       "lng": 115.824,
       "type": "settlement"
+    },
+    "Shrewsbury": {
+      "lat": 52.7078,
+      "lng": -2.7541,
+      "type": "town"
+    },
+    "Brighton, SSX, ENG": {
+      "lat": 50.8225,
+      "lng": -0.1372,
+      "type": "town"
+    },
+    "Horley": {
+      "lat": 51.1717,
+      "lng": -0.1641,
+      "type": "town"
+    },
+    "Crawley": {
+      "lat": 51.1103,
+      "lng": -0.1801,
+      "type": "town"
     }
   }
 }
