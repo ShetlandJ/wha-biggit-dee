@@ -2153,6 +2153,22 @@
       "lat": 51.1103,
       "lng": -0.1801,
       "type": "town"
+    },
+    "South Nesting": {
+      "lat": 60.2634,
+      "lng": -1.1565,
+      "type": "parish"
+    },
+    "Drainie": {
+      "lat": 57.7055,
+      "lng": -3.3448,
+      "type": "parish"
+    },
+    "England": {
+      "lat": 52.5,
+      "lng": -1.5,
+      "type": "country",
+      "name": "England"
     }
   }
 }
