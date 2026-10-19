@@ -2169,6 +2169,31 @@
       "lng": -1.5,
       "type": "country",
       "name": "England"
+    },
+    "IOM, UK": {
+      "lat": 54.1937,
+      "lng": -4.5591,
+      "type": "county"
+    },
+    "Peel, IOM, UK": {
+      "lat": 54.2229,
+      "lng": -4.6957,
+      "type": "town"
+    },
+    "Patrick, IOM, UK": {
+      "lat": 54.2064,
+      "lng": -4.6955,
+      "type": "parish"
+    },
+    "German, IOM, UK": {
+      "lat": 54.2024,
+      "lng": -4.642,
+      "type": "parish"
+    },
+    "Davis Straits, Canada": {
+      "lat": 65.5374,
+      "lng": -57.5297,
+      "type": "sea"
     }
   }
 }
