@@ -21,6 +21,16 @@ if [[ "$1" == send ]]; then
   f() { python3 -c "import json,sys; v=json.loads(sys.argv[1]).get(sys.argv[2]); print('' if v is None else v)" "$row" "$1"; }
   [[ "$(f status)" == fulfilled && -n "$(f link)" ]] || { echo "request $2 isn't fulfilled yet"; exit 1; }
   to=$(f email); [[ "$3" == --to && -n "$4" ]] && to=$4
+  if [[ -n "$(f pair_id)" ]]; then
+    # Paired (e.g. both parents): one email with both links and the side-by-side, once both maps are made.
+    [[ "$(f pair_status)" != missing ]] || { echo "request $2's pair has been deleted or withheld; James to decide"; exit 1; }
+    [[ "$(f pair_status)" == fulfilled && -n "$(f pair_link)" ]] || { echo "request $2 is waiting on its pair, request $(f pair_request)"; exit 1; }
+    (cd ~/projects/wha-biggit-dee-app && php artisan tree:mail-ready --to="$to" --first-name="$(f first_name)" \
+      --relationship="$(f relationship)" --tree="$(f tree)" --link="$(f link)" \
+      --relationship2="$(f pair_relationship)" --tree2="$(f pair_tree)" --link2="$(f pair_link)" --compare="$(f compare)")
+    [[ "$3" == --to ]] || { "$0" emailed "$2"; [[ -n "$(f pair_emailed)" ]] || "$0" emailed "$(f pair_request)"; }
+    exit
+  fi
   (cd ~/projects/wha-biggit-dee-app && php artisan tree:mail-ready --to="$to" --first-name="$(f first_name)" \
     --relationship="$(f relationship)" --tree="$(f tree)" --link="$(f link)")
   [[ "$3" == --to ]] || "$0" emailed "$2"
@@ -57,17 +67,33 @@ def root_living(bayanne_id):
     years = [int(m.group()) for e in events if (m := re.search(r'\d{4}', e.get('date') or ''))]
     return bool(years) and min(years) >= datetime.date.today().year - 110
 trees = {t['tng_id']: t for t in json.loads(os.environ['TREES'])}
-for r in sorted(json.loads(os.environ['REQ']), key=lambda r: r['created_at']):
+def map_of(r):
+    t = trees.get(r['bayanne_id']) if r['fulfilled_at'] else None
+    link = t['url'].replace('https://wha-biggit-dee-production-qzlr2l.laravel.cloud', 'https://jastewart.co.uk') if t else None
+    living = root_living(r['bayanne_id'])
+    return {'status': 'fulfilled' if r['fulfilled_at'] else 'PENDING',
+            'tree': None if living else (t['name'] if t else None), 'root_living': living, 'link': link}
+rows = sorted(json.loads(os.environ['REQ']), key=lambda r: r['created_at'])
+for r in rows:
     if r.get('emailed_at'):
         continue
     if not ok(r):
         print(json.dumps({'id': r['id'], 'status': 'WITHHELD', 'reason': 'fails validation; James to review in the database'}))
         continue
-    t = trees.get(r['bayanne_id']) if r['fulfilled_at'] else None
-    link = t['url'].replace('https://wha-biggit-dee-production-qzlr2l.laravel.cloud', 'https://jastewart.co.uk') if t else None
-    living = root_living(r['bayanne_id'])
-    print(json.dumps({'id': r['id'], 'bayanne_id': r['bayanne_id'], 'first_name': r['first_name'],
-                      'relationship': r.get('relationship'), 'email': r['email'],
-                      'status': 'fulfilled' if r['fulfilled_at'] else 'PENDING',
-                      'tree': None if living else (t['name'] if t else None), 'root_living': living, 'link': link}))
+    out = {'id': r['id'], 'bayanne_id': r['bayanne_id'], 'first_name': r['first_name'],
+           'relationship': r.get('relationship'), 'email': r['email'], **map_of(r)}
+    if r.get('pair_id'):
+        # The other half may already have been emailed on its own (they asked for one parent, then the other).
+        p = next((x for x in rows if x.get('pair_id') == r['pair_id'] and x['id'] != r['id']), None)
+        out['pair_id'] = r['pair_id']
+        if p is None or not ok(p):
+            out['pair_status'] = 'missing'
+        else:
+            m = map_of(p)
+            out.update({'pair_request': p['id'], 'pair_bayanne_id': p['bayanne_id'], 'pair_relationship': p.get('relationship'),
+                        'pair_status': m['status'], 'pair_tree': m['tree'], 'pair_root_living': m['root_living'],
+                        'pair_link': m['link'], 'pair_emailed': p.get('emailed_at')})
+            if out['link'] and m['link']:
+                out['compare'] = out['link'] + '/' + m['link'].rsplit('/', 1)[1]
+    print(json.dumps(out))
 PY
